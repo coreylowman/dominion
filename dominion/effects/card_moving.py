@@ -34,3 +34,8 @@ class MoveAnyHighTreasureToTrash(Effect):
         elif 'gold' in names:
             game.move_to_trash(player_handle, cards.pop(names.index('gold')))
         return cards
+
+
+class DiscardTempArea(Effect):
+    def invoke(self, player_handle, game, arg):
+        game.discard_temp_area(player_handle)
