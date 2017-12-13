@@ -10,10 +10,15 @@ class BigMoneyPlayer(AIPlayer):
     def action_phase(self):
         pass
 
-    def buy_phase(self):
+    def get_card_to_buy(self):
         for card_name in ['province', 'gold', 'silver']:
             if self.can_buy(card_name):
-                self.buy(card_name)
+                return card_name
+
+    def buy_phase(self):
+        card_to_buy = self.get_card_to_buy()
+        if card_to_buy is not None and self.can_buy(card_to_buy):
+            self.buy(card_to_buy)
 
     def choose_card_from(self, collection):
         for card_name in ['province', 'duchy', 'estate', 'copper', 'silver', 'gold']:
@@ -32,11 +37,11 @@ class SmithyBigMoneyPlayer(BigMoneyPlayer):
         if self.can_play('smithy'):
             self.play('smithy')
 
-    def buy_phase(self):
+    def get_card_to_buy(self):
         if self.can_buy('smithy') and self.turn_number < 3:
             self.buy('smithy')
         else:
-            super().buy_phase()
+            return super().get_card_to_buy()
 
 
 class OptimalBigMoneyPlayer(BigMoneyPlayer):
@@ -55,6 +60,3 @@ class OptimalBigMoneyPlayer(BigMoneyPlayer):
             return 'estate' if self.can_buy('estate') else None
         else:
             return None
-
-    def buy_phase(self):
-        self.buy(self.get_card_to_buy())

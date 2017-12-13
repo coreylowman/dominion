@@ -25,11 +25,27 @@ class LocalPlayerHandle(PlayerHandle):
         self.is_action = card_is_action
 
     def notify_started_action_phase(self, player):
-        if self.name == player:
-            self.my_turn = True
+        self.my_turn = player == self.name
+
+        if player == self.name:
             self.turn_number += 1
-        else:
-            self.my_turn = False
+            if self.can_play_anything():
+                self.action_phase()
+            self.finish_action_phase()
+
+    @abstractmethod
+    def action_phase(self):
+        pass
+
+    def notify_started_buy_phase(self, player):
+        if player == self.name:
+            if self.can_buy_anything():
+                self.buy_phase()
+            self.finish_turn()
+
+    @abstractmethod
+    def buy_phase(self):
+        pass
 
     def notify_gained_actions(self, player, amount):
         if self.name == player:
@@ -103,31 +119,21 @@ class ConsolePlayer(LocalPlayerHandle):
         super().notify_card_bought(card)
         print('{} was bought.'.format(card))
 
-    def notify_started_action_phase(self, player):
-        if player == self.name:
-            while self.can_play_anything():
-                print('Actions: {}, Hand: {}'.format(self.actions, self.hand))
-                if not self.ask_yes_or_no('Play action? {}'.format(self.cards_can_play())):
-                    break
+    def action_phase(self):
+        while self.can_play_anything():
+            print('Actions: {}, Hand: {}'.format(self.actions, self.hand))
+            if not self.ask_yes_or_no('Play action? {}'.format(self.cards_can_play())):
+                break
 
-                self.play(self.choose_card_from(self.cards_can_play()))
+            self.play(self.choose_card_from(self.cards_can_play()))
 
-            self.finish_action_phase()
-        else:
-            print('{}\'s action phase has started'.format(player))
+    def buy_phase(self):
+        while self.can_buy_anything():
+            print('Buys: {}, Coins: {}, Supply: {}'.format(self.buys, self.coins, self.num_left_of))
+            if not self.ask_yes_or_no('Buy card? {}'.format(self.cards_can_buy())):
+                break
 
-    def notify_started_buy_phase(self, player):
-        if player == self.name:
-            while self.can_buy_anything():
-                print('Buys: {}, Coins: {}, Supply: {}'.format(self.buys, self.coins, self.num_left_of))
-                if not self.ask_yes_or_no('Buy card? {}'.format(self.cards_can_buy())):
-                    break
-
-                self.buy(self.choose_card_from(self.cards_can_buy()))
-
-            self.finish_turn()
-        else:
-            print('{}\'s buy phase has started'.format(player))
+            self.buy(self.choose_card_from(self.cards_can_buy()))
 
     def choose_card_from(self, collection):
         while True:
@@ -148,24 +154,3 @@ class AIPlayer(LocalPlayerHandle):
     @abstractmethod
     def requires(self):
         return []
-
-    def notify_started_action_phase(self, player):
-        if player == self.name:
-            self.turn_number += 1
-            if self.can_play_anything():
-                self.action_phase()
-            self.finish_action_phase()
-
-    @abstractmethod
-    def action_phase(self):
-        pass
-
-    def notify_started_buy_phase(self, player):
-        if player == self.name:
-            if self.can_buy_anything():
-                self.buy_phase()
-            self.finish_turn()
-
-    @abstractmethod
-    def buy_phase(self):
-        pass
