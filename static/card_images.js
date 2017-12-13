@@ -14,7 +14,7 @@ function loadCards(onCompleteFn) {
     for (let card of allCards) {
         imageForCard[card] = new Image();
         imageForCard[card].src = '/static/res/cards/' + card + '.jpg';
-        imageForCard[card].onload = function() {
+        imageForCard[card].onload = function () {
             toLoad.delete(card);
             if (toLoad.size == 0) {
                 onCompleteFn();
@@ -39,7 +39,21 @@ function makeCardAt(name, x, y) {
     bitmap.y = y;
     bitmap.scaleX = cardWidth / imageForCard[name].width;
     bitmap.scaleY = cardHeight / imageForCard[name].height;
+    bitmap.shadow = new createjs.Shadow('#000000', 0, 0, 2);
+    bitmap.isHighlighted = false;
     return bitmap;
+}
+
+function highlightCard(bitmap) {
+    bitmap.isHighlighted = true;
+    bitmap.shadow.color = '#0000ff';
+    bitmap.shadow.blur = 5;
+}
+
+function unhighlightCard(bitmap) {
+    bitmap.isHighlighted = false;
+    bitmap.shadow.color = '#000000';
+    bitmap.shadow.blur = 2;
 }
 
 function setImageForCard(bitmap, name) {

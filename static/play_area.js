@@ -3,8 +3,8 @@ class PlayArea {
         this.playArea = [];
 
         this.playAreaContainer = new createjs.Container();
-        this.playAreaContainer.x = 11 * (cardWidth + 10) + 10;
-        this.playAreaContainer.y = (cardHeight + 10);
+        this.playAreaContainer.x = 11 * (cardWidth + cardPadding) + cardPadding;
+        this.playAreaContainer.y = (cardHeight + cardPadding);
         stage.addChild(this.playAreaContainer);
     }
 

@@ -10,6 +10,7 @@ var stage = new createjs.Stage("dominionCanvas");
 
 var cardWidth = 120;
 var cardHeight = 192;
+var cardPadding = 15;
 
 var playArea;
 var supply;
@@ -97,7 +98,6 @@ function onDisconnect(event) {
 
 function onMessage(event) {
     var message = JSON.parse(event.data);
-    console.log(message);
     if (message.type in messageHandlers) {
         for (let handler of messageHandlers[message.type]) {
             handler(message);
