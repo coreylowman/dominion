@@ -23,15 +23,16 @@ for i in range(args.num_games):
     player1 = getattr(dominion.ai, args.player1)('Player1')
     player2 = getattr(dominion.ai, args.player2)('Player2')
 
-    cards = random.sample(DOMINION_CARDS, 10)
+    possible_choices = set(DOMINION_CARDS)
 
-    required_cards = set()
-    required_cards.update(player1.requires())
-    required_cards.update(player2.requires())
+    kingdom_cards = set()
+    kingdom_cards.update(player1.requires())
+    kingdom_cards.update(player2.requires())
 
-    for required_card in required_cards:
-        if required_card not in cards:
-            cards[random.choice(range(10))] = required_card
+    # remove all the cards already in kingdom_cards from the choices
+    possible_choices.difference_update(kingdom_cards)
+
+    kingdom_cards.update(random.sample(possible_choices, 10 - len(kingdom_cards)))
 
     game = Game(cards)
 
