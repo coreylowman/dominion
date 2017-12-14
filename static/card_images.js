@@ -39,21 +39,45 @@ function makeCardAt(name, x, y) {
     bitmap.y = y;
     bitmap.scaleX = cardWidth / imageForCard[name].width;
     bitmap.scaleY = cardHeight / imageForCard[name].height;
-    bitmap.shadow = new createjs.Shadow('#000000', 0, 0, 2);
     bitmap.isHighlighted = false;
+    bitmap.highlight = null;
+    bitmap.shadow = new createjs.Shadow('#000000', 0, 0, 3);
     return bitmap;
 }
 
 function highlightCard(bitmap) {
-    bitmap.isHighlighted = true;
-    bitmap.shadow.color = '#0000ff';
-    bitmap.shadow.blur = 5;
+    if (!bitmap.isHighlighted) {
+        bitmap.isHighlighted = true;
+
+        bitmap.highlight = new createjs.Shape();
+        var pt = bitmap.localToGlobal(0, 0);
+        bitmap.highlight.graphics
+            .beginStroke("red")
+            .setStrokeStyle(3)
+            .drawRect(pt.x, pt.y, cardWidth, cardHeight);
+        stage.addChild(bitmap.highlight);
+
+        bitmap.on('mouseover', function (event) {
+            bitmap.shadow.blur = 10;
+            stage.update();
+        });
+
+        bitmap.on('mouseout', function (event) {
+            bitmap.shadow.blur = 3;
+            stage.update();
+        });
+    }
 }
 
 function unhighlightCard(bitmap) {
-    bitmap.isHighlighted = false;
-    bitmap.shadow.color = '#000000';
-    bitmap.shadow.blur = 2;
+    if (bitmap.isHighlighted) {
+        bitmap.isHighlighted = false;
+        stage.removeChild(bitmap.highlight);
+        bitmap.highlight = null;
+        bitmap.shadow.blur = 3;
+
+        bitmap.removeAllEventListeners();
+    }
 }
 
 function setImageForCard(bitmap, name) {

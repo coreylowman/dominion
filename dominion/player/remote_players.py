@@ -23,6 +23,9 @@ class WebsocketPlayer(PlayerHandle):
     def notify_started_game(self):
         self.websocket.send(self._make_msg(locals()))
 
+    def notify_finished_game(self, game_results):
+        self.websocket.send(self._make_msg(locals()))
+
     def notify_started_action_phase(self, player):
         self.websocket.send(self._make_msg(locals()))
 

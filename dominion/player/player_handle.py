@@ -44,6 +44,10 @@ class PlayerHandle:
         pass
 
     @abstractmethod
+    def notify_finished_game(self, game_results):
+        pass
+
+    @abstractmethod
     def notify_started_action_phase(self, player):
         pass
 

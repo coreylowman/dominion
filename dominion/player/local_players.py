@@ -107,6 +107,10 @@ class ConsolePlayer(LocalPlayerHandle):
         super().notify_started_game()
         print('Game started!')
 
+    def notify_finished_game(self, game_results):
+        print('Game finished!')
+        print(game_results)
+
     def notify_trashed_card(self, player, card):
         super().notify_trashed_card(player, card)
         print('{} trashed a {}'.format(player, card))

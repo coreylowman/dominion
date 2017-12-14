@@ -13,3 +13,4 @@ game.add_player(BigMoneyPlayer('BigMoneyPlayer'))
 game.start()
 while not game.is_over():
     game.run_next_phase()
+game.complete()

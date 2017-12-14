@@ -83,6 +83,21 @@ class Game:
     def player_has_moat(self, player_handle):
         return any(map(lambda card: card.name == 'moat', self.player_state_by_handle[player_handle].hand))
 
+    def complete(self):
+        if not self.is_over():
+            raise ValueError('Game::complete() called when game was not over.')
+
+        game_results = {
+            'turns': self.turn_number,
+            'is_draw': self.is_draw(),
+            'winner': '' if self.is_draw() else self.winner(),
+            'reason': self.finish_reason(),
+        }
+        game_results.update(self.victory_points_by_player())
+
+        for handle in self.player_handles:
+            handle.notify_finished_game(game_results)
+
     def is_over(self):
         return self.num_empty_piles() == 3 or len(self.card_piles_by_name['province']) == 0
 

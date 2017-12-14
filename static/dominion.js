@@ -1,4 +1,4 @@
-var name = 'corey';
+var name = prompt('What is your name?');
 
 var websocket;
 
@@ -7,6 +7,7 @@ canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
 
 var stage = new createjs.Stage("dominionCanvas");
+stage.enableMouseOver(20);
 
 var cardWidth = 120;
 var cardHeight = 192;
@@ -21,6 +22,7 @@ var messageHandlers = {
     notify_player_joined: [],
     notify_joined_game: [],
     notify_started_game: [],
+    notify_finished_game: [],
     notify_started_action_phase: [],
     notify_started_buy_phase: [],
     notify_gained_actions: [],
@@ -74,6 +76,7 @@ function main() {
     messageHandlers['choose_card_from'].push((message) => player.handleChooseFromCollection(message));
 
     messageHandlers['notify_player_joined'].push(handleOpponentJoined);
+    messageHandlers['notify_finished_game'].push(handleFinishedGame);
 
     websocket = new WebSocket("ws://localhost:5000/game");
     websocket.onopen = onConnect;
@@ -87,7 +90,7 @@ function onConnect(event) {
 
     var args = {
         name: name,
-        game: 'First Game',
+        game: 'random',
     };
     websocket.send(JSON.stringify(args));
 }
@@ -121,4 +124,26 @@ function handleOpponentJoined(message) {
     messageHandlers['notify_gained_actions'].push((message) => opponent.handleGainedActions(message));
     messageHandlers['notify_gained_buys'].push((message) => opponent.handleGainedBuys(message));
     messageHandlers['notify_gained_coins'].push((message) => opponent.handleGainedCoins(message));
+}
+
+function handleFinishedGame(message) {
+    message = message.game_results;
+
+    var infos = ["Game over! " + message.reason + " after " + message.turns + " turns!\n"];
+
+    if (message.is_draw) {
+        infos.push("Draw!\n");
+    } else {
+        infos.push(message.winner + " won!\n");
+    }
+
+    infos.push(player.name + " scored " + message[player.name]);
+    infos.push(opponent.name + " scored " + message[opponent.name] + "\n");
+
+    infos.push('Play again?');
+
+    var playAgain = confirm(infos.join('\n'));
+    if (playAgain) {
+        location.reload();
+    }
 }

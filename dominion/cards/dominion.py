@@ -67,7 +67,7 @@ def moneylender():
 
 def poacher():
     return make_card(poacher.__name__, cost=4, type=CardType.ACTION,
-                     effect=InOrder(DrawCard(), GainActions(1),
+                     effect=InOrder(DrawCard(), GainActions(1), GainCoins(1),
                                     NumEmptyPiles().times(ChooseFromHand().into(MoveToDiscard()))))
 
 

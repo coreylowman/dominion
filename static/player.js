@@ -128,6 +128,7 @@ class Player {
         for (let card of this.cardsCanPlay()) {
             this.addClickListenerToHand(card, () => {
                 this.playCard(card);
+                this.removeClickListenersFromHand();
             });
         }
     }
@@ -173,6 +174,7 @@ class Player {
         for (let card of this.cardsCanBuy()) {
             supply.addClickListenerToCard(card, () => {
                 this.buyCard(card);
+                supply.removeClickListeners();
             });
         }
     }
