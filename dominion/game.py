@@ -236,8 +236,10 @@ class Game:
         return list(filter(lambda card_name: self.can_buy(card_name, coins), self.card_piles_by_name))
 
     def can_buy(self, card_name, coins):
-        return card_name in self.card_piles_by_name and len(self.card_piles_by_name[card_name]) > 0 and \
-               self.card_piles_by_name[card_name][0].cost <= coins
+        return self.card_is_available(card_name) and self.card_piles_by_name[card_name][0].cost <= coins
+
+    def card_is_available(self, card_name):
+        return card_name in self.card_piles_by_name and len(self.card_piles_by_name[card_name]) > 0
 
     def num_empty_piles(self):
         return len(self.empty_piles())
@@ -248,17 +250,11 @@ class Game:
     def number_of_cards(self, player_handle):
         return self.player_state_by_handle[player_handle].num_cards()
 
-    def hand_of(self, player_handle, as_names=False):
-        if as_names:
-            return list(map(lambda card: card.name, self.player_state_by_handle[player_handle].hand))
-        else:
-            return self.player_state_by_handle[player_handle].hand
+    def hand_of(self, player_handle):
+        return self.player_state_by_handle[player_handle].hand
 
-    def discard_of(self, player_handle, as_names=False):
-        if as_names:
-            return list(map(lambda card: card.name, self.player_state_by_handle[player_handle].discard))
-        else:
-            return self.player_state_by_handle[player_handle].discard
+    def discard_of(self, player_handle):
+        return self.player_state_by_handle[player_handle].discard
 
     def gain_actions_for(self, player_handle, amount):
         self.player_state_by_handle[player_handle].actions += amount

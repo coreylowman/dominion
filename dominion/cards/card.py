@@ -20,14 +20,20 @@ class Card:
         self.effect = effect
         self.type = type
 
+    def is_type(self, card_type):
+        return bool(self.type & card_type)
+
     def is_action(self):
-        return bool(self.type & CardType.ACTION)
+        return self.is_type(CardType.ACTION)
 
     def is_victory(self):
-        return bool(self.type & CardType.VICTORY)
+        return self.is_type(CardType.VICTORY)
 
     def is_treasure(self):
-        return bool(self.type & CardType.TREASURE)
+        return self.is_type(CardType.TREASURE)
+
+    def is_high_treasure(self):
+        return self.name != 'copper' and self.is_treasure()
 
     def play(self, player_handle, game):
         self.effect.invoke(player_handle, game, None)

@@ -26,16 +26,6 @@ class MoveToTrash(Effect):
         game.move_to_trash(player_handle, card)
 
 
-class MoveAnyHighTreasureToTrash(Effect):
-    def invoke(self, player_handle, game, cards):
-        names = list(map(lambda card: card.name, cards))
-        if 'silver' in names:
-            game.move_to_trash(player_handle, cards.pop(names.index('silver')))
-        elif 'gold' in names:
-            game.move_to_trash(player_handle, cards.pop(names.index('gold')))
-        return cards
-
-
 class DiscardTempArea(Effect):
     def invoke(self, player_handle, game, arg):
         game.discard_temp_area(player_handle)

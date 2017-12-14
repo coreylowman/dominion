@@ -1,4 +1,17 @@
-from .effect import Effect
+from .effect import Effect, as_names
+
+
+class CollectionSizeGreaterThan(Effect):
+    def __init__(self, size):
+        self.size = size
+
+    def invoke(self, player_handle, game, collection):
+        return len(collection) > self.size
+
+
+class CollectionHasHighTreasure(Effect):
+    def invoke(self, player_handle, game, collection):
+        return any(map(lambda card: card.is_high_treasure(), collection))
 
 
 class HandSizeLessThan(Effect):
@@ -17,6 +30,14 @@ class HandSizeGreaterThan(Effect):
         return len(game.hand_of(player_handle)) > self.size
 
 
+class DiscardSizeGreaterThan(Effect):
+    def __init__(self, size):
+        self.size = size
+
+    def invoke(self, player_handle, game, arg):
+        return len(game.discard_of(player_handle)) > self.size
+
+
 class CardIsAction(Effect):
     def invoke(self, player_handle, game, card):
         return card.is_action()
@@ -27,7 +48,23 @@ class HasCard(Effect):
         self.name = card_constructor.__name__
 
     def invoke(self, player_handle, game, arg):
-        return self.name in game.hand_of(player_handle, as_names=True)
+        return self.name in as_names(game.hand_of(player_handle))
+
+
+class HasCardType(Effect):
+    def __init__(self, type):
+        self.type = type
+
+    def invoke(self, player_handle, game, arg):
+        return any(map(lambda card: card.is_type(self.type), game.hand_of(player_handle)))
+
+
+class CardIsAvailable(Effect):
+    def __init__(self, card_constructor):
+        self.name = card_constructor.__name__
+
+    def invoke(self, player_handle, game, arg):
+        return game.card_is_available(self.name)
 
 
 class AskYesOrNo(Effect):

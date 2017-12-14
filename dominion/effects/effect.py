@@ -1,3 +1,7 @@
+def as_names(card_collection):
+    return list(map(lambda card: card.name, card_collection))
+
+
 class Effect:
     def invoke(self, player_handle, game, arg):
         return arg
@@ -137,11 +141,6 @@ class Times(Effect):
         for i in range(count):
             results.append(self.effect.invoke(player_handle, game, None))
         return results
-
-
-class Reverse(Effect):
-    def invoke(self, player_handle, game, collection):
-        return list(reversed(collection))
 
 
 class FilterOutNone(Effect):
