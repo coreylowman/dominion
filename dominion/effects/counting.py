@@ -22,3 +22,11 @@ class NumEmptyPiles(Effect):
 class Count(Effect):
     def invoke(self, player_handle, game, collection):
         return len(collection)
+
+
+class Len(Effect):
+    def __init__(self, collection_effect):
+        self.effect = collection_effect
+
+    def invoke(self, player_handle, game, arg):
+        return len(self.effect.invoke(player_handle, game, arg))

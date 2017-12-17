@@ -38,30 +38,35 @@ class ChooseHighTreasureFromCollection(Effect):
         return collection.pop(names.index(card_name))
 
 
-class ChooseFromHand(Effect):
+class ChooseFrom(Effect):
+    def __init__(self, effect, card_type=None):
+        self.effect = effect
+        self.card_type = card_type
+
     def invoke(self, player_handle, game, arg):
-        card_name = player_handle.choose_card_from(as_names(game.hand_of(player_handle)))
-        return game.take_from_hand(player_handle, card_name)
+        collection = self.effect.invoke(player_handle, game, arg)
+        names = as_names(collection)
+        if self.card_type is not None:
+            choices = as_names(list(filter(lambda card: card.is_type(self.card_type), collection)))
+        else:
+            choices = names
+        card_name = player_handle.choose_card_from(choices)
+        return collection.pop(names.index(card_name))
 
 
-class ChooseVictoryFromHand(Effect):
+class CardsInHand(Effect):
     def invoke(self, player_handle, game, arg):
-        victory_cards = list(filter(lambda card: card.is_victory(), game.hand_of(player_handle)))
-        card_name = player_handle.choose_card_from(as_names(victory_cards))
-        return game.take_from_hand(player_handle, card_name)
+        return game.hand_of(player_handle)
 
 
-class ChooseTreasureFromHand(Effect):
+class CardsInDiscard(Effect):
     def invoke(self, player_handle, game, arg):
-        treasure_cards = list(filter(lambda card: card.is_treasure(), game.hand_of(player_handle)))
-        card_name = player_handle.choose_card_from(as_names(treasure_cards))
-        return game.take_from_hand(player_handle, card_name)
+        return game.discard_of(player_handle)
 
 
-class ChooseFromDiscard(Effect):
+class CardsNotInPlay(Effect):
     def invoke(self, player_handle, game, arg):
-        card_name = player_handle.choose_card_from(as_names(game.discard_of(player_handle)))
-        return game.take_from_discard(player_handle, card_name)
+        return game.discard_of(player_handle) + game.deck_of(player_handle)
 
 
 class BuyFromSupplyUpTo(Effect):

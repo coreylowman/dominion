@@ -25,6 +25,12 @@ class Effect:
     def times(self, effect):
         return self.into(Times(effect))
 
+    def greater_than(self, effect):
+        return GreaterThan(self, effect)
+
+    def less_than(self, effect):
+        return LessThan(self, effect)
+
 
 class If(Effect):
     def __init__(self, condition_effect, effect):
@@ -146,3 +152,21 @@ class Times(Effect):
 class FilterOutNone(Effect):
     def invoke(self, player_handle, game, collection):
         return list(filter(lambda item: item is not None, collection))
+
+
+class GreaterThan(Effect):
+    def __init__(self, effect1, effect2):
+        self.effect1 = effect1
+        self.effect2 = effect2
+
+    def invoke(self, player_handle, game, arg):
+        return self.effect1.invoke(player_handle, game, arg) > self.effect2.invoke(player_handle, game, arg)
+
+
+class LessThan(Effect):
+    def __init__(self, effect1, effect2):
+        self.effect1 = effect1
+        self.effect2 = effect2
+
+    def invoke(self, player_handle, game, arg):
+        return self.effect1.invoke(player_handle, game, arg) < self.effect2.invoke(player_handle, game, arg)

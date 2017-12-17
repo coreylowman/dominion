@@ -1,41 +1,9 @@
 from .effect import Effect, as_names
 
 
-class CollectionSizeGreaterThan(Effect):
-    def __init__(self, size):
-        self.size = size
-
-    def invoke(self, player_handle, game, collection):
-        return len(collection) > self.size
-
-
 class CollectionHasHighTreasure(Effect):
     def invoke(self, player_handle, game, collection):
         return any(map(lambda card: card.is_high_treasure(), collection))
-
-
-class HandSizeLessThan(Effect):
-    def __init__(self, size):
-        self.size = size
-
-    def invoke(self, player_handle, game, arg):
-        return len(game.hand_of(player_handle)) < self.size
-
-
-class HandSizeGreaterThan(Effect):
-    def __init__(self, size):
-        self.size = size
-
-    def invoke(self, player_handle, game, arg):
-        return len(game.hand_of(player_handle)) > self.size
-
-
-class DiscardSizeGreaterThan(Effect):
-    def __init__(self, size):
-        self.size = size
-
-    def invoke(self, player_handle, game, arg):
-        return len(game.discard_of(player_handle)) > self.size
 
 
 class CardIsAction(Effect):

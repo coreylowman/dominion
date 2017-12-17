@@ -4,16 +4,17 @@ from .base import *
 def cellar():
     return make_card(cellar.__name__, cost=2, type=CardType.ACTION,
                      effect=InOrder(GainActions(1),
-                                    While(HandSizeGreaterThan(0).and_(AskYesOrNo('Discard another card?')),
-                                          ChooseFromHand())
-                                    .for_each(MoveToDiscard()).into(Count()).into(DrawNCards())))
+                                    While(Len(CardsInHand()).greater_than(Const(0))
+                                          .and_(AskYesOrNo('Discard another card?')),
+                                          ChooseFrom(CardsInHand()))
+                                    .for_each(MoveToDiscard()).into(Count()).times(DrawCard())))
 
 
 def chapel():
     return make_card(chapel.__name__, cost=2, type=CardType.ACTION,
-                     effect=InOrder(GainActions(1),
-                                    While(HandSizeGreaterThan(0).and_(AskYesOrNo('Trash another card?')),
-                                          ChooseFromHand())
+                     effect=InOrder(While(Len(CardsInHand()).greater_than(Const(0))
+                                          .and_(AskYesOrNo('Trash another card?')),
+                                          ChooseFrom(CardsInHand()))
                                     .for_each(MoveToTrash())))
 
 
@@ -24,8 +25,9 @@ def moat():
 def harbinger():
     return make_card(harbinger.__name__, cost=3, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1),
-                                    If(DiscardSizeGreaterThan(0).and_(AskYesOrNo('Take card from discard?')),
-                                       ChooseFromDiscard().into(MoveToDeck()))))
+                                    If(Len(CardsInDiscard()).greater_than(Const(0))
+                                       .and_(AskYesOrNo('Take card from discard?')),
+                                       ChooseFrom(CardsInDiscard()).into(MoveToDeck()))))
 
 
 def merchant():
@@ -35,8 +37,12 @@ def merchant():
 
 def vassal():
     return make_card(vassal.__name__, cost=3, type=CardType.ACTION,
-                     effect=InOrder(GainCoins(2), PopCardFromDeck().into(
-                         IfElse(CardIsAction().and_(AskYesOrNo('Play action?')), PlayCard(), MoveToDiscard()))))
+                     effect=InOrder(GainCoins(2),
+                                    If(Len(CardsNotInPlay()).greater_than(Const(0)),
+                                       PopCardFromDeck().into(
+                                           IfElse(CardIsAction().and_(AskYesOrNo('Play action?')),
+                                                  PlayCard(),
+                                                  MoveToDiscard())))))
 
 
 def village():
@@ -53,14 +59,14 @@ def bureaucrat():
                                        PopFromSupply(silver).into(MoveToDeck())),
                                     MakeOpponents(
                                         If(HasCardType(CardType.VICTORY),
-                                           ChooseVictoryFromHand().into(MoveToDeck())))))
+                                           ChooseFrom(CardsInHand(), CardType.VICTORY).into(MoveToDeck())))))
 
 
 def militia():
     return make_card(militia.__name__, cost=4, type=CardType.ACTION | CardType.ATTACK,
                      effect=InOrder(GainCoins(2),
-                                    MakeOpponents(While(HandSizeGreaterThan(3),
-                                                        ChooseFromHand().into(MoveToDiscard())))))
+                                    MakeOpponents(While(Len(CardsInHand()).greater_than(Const(3)),
+                                                        ChooseFrom(CardsInHand()).into(MoveToDiscard())))))
 
 
 def moneylender():
@@ -72,14 +78,14 @@ def poacher():
     return make_card(poacher.__name__, cost=4, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1), GainCoins(1),
                                     NumEmptyPiles().times(
-                                        If(HandSizeGreaterThan(0),
-                                           ChooseFromHand().into(MoveToDiscard())))))
+                                        If(Len(CardsInHand()).greater_than(Const(0)),
+                                           ChooseFrom(CardsInHand()).into(MoveToDiscard())))))
 
 
 def remodel():
     return make_card(remodel.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(HandSizeGreaterThan(0),
-                               ChooseFromHand().into(
+                     effect=If(Len(CardsInHand()).greater_than(Const(0)),
+                               ChooseFrom(CardsInHand()).into(
                                    InOrder(MoveToTrash(), BuyFromSupplyUpToMore(2).into(MoveToDiscard())))))
 
 
@@ -89,7 +95,8 @@ def smithy():
 
 def throne_room():
     return make_card(throne_room.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(HandSizeGreaterThan(0), ChooseFromHand().into(InOrder(PlayCard(), PlayCard()))))
+                     effect=If(Len(CardsInHand()).greater_than(Const(0)),
+                               ChooseFrom(CardsInHand()).into(InOrder(PlayCard(), PlayCard()))))
 
 
 def bandit():
@@ -97,11 +104,12 @@ def bandit():
                      effect=InOrder(If(CardIsAvailable(gold),
                                        PopFromSupply(gold).into(MoveToDiscard())),
                                     MakeOpponents(
-                                        Const(2).times(PopCardFromDeck())
-                                            .into(InOrder(
-                                            If(CollectionHasHighTreasure(),
-                                               ChooseHighTreasureFromCollection().into(MoveToTrash())),
-                                            ForEach(MoveToDiscard()))))))
+                                        Const(2)
+                                            .times(If(Len(CardsNotInPlay()).greater_than(Const(0)), PopCardFromDeck()))
+                                            .into(FilterOutNone())
+                                            .into(InOrder(If(CollectionHasHighTreasure(),
+                                                             ChooseHighTreasureFromCollection().into(MoveToTrash())),
+                                                          ForEach(MoveToDiscard()))))))
 
 
 def council_room():
@@ -121,12 +129,13 @@ def laboratory():
 
 def library():
     return make_card(library.__name__, cost=5, type=CardType.ACTION,
-                     effect=While(HandSizeLessThan(7),
-                                  PopCardFromDeck().into(
-                                      IfElse(CardIsAction().and_(AskYesOrNo('Skip action card?')),
-                                             MoveToTempArea(),
-                                             MoveToHand()))
-                                  ).into(DiscardTempArea()))
+                     effect=While(
+                         Len(CardsInHand()).less_than(Const(7)).and_(Len(CardsNotInPlay()).greater_than(Const(0))),
+                         PopCardFromDeck().into(
+                             IfElse(CardIsAction().and_(AskYesOrNo('Skip action card?')),
+                                    MoveToTempArea(),
+                                    MoveToHand()))
+                     ).into(DiscardTempArea()))
 
 
 def market():
@@ -137,14 +146,16 @@ def market():
 def mine():
     return make_card(mine.__name__, cost=5, type=CardType.ACTION,
                      effect=If(HasCardType(CardType.TREASURE),
-                               ChooseTreasureFromHand().into(
+                               ChooseFrom(CardsInHand(), CardType.VICTORY).into(
                                    InOrder(MoveToTrash(), BuyFromSupplyUpToMore(3).into(MoveToHand())))))
 
 
 def sentry():
     return make_card(sentry.__name__, cost=5, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1),
-                                    Const(2).times(PopCardFromDeck())
+                                    Const(2).times(
+                                        If(Len(CardsNotInPlay()).greater_than(Const(0)), PopCardFromDeck()))
+                                    .into(FilterOutNone())
                                     .for_each(
                                         IfElse(AskYesOrNo('Trash card?'),
                                                MoveToTrash(),
@@ -153,7 +164,7 @@ def sentry():
                                                    MoveToDiscard(),
                                                    Effect())))
                                     .into(FilterOutNone())
-                                    .into(While(CollectionSizeGreaterThan(0),
+                                    .into(While(Count().greater_than(Const(0)),
                                                 ChooseFromCollection().into(MoveToDeck())))))
 
 
@@ -167,7 +178,8 @@ def witch():
 
 def artisan():
     return make_card(artisan.__name__, cost=6, type=CardType.ACTION,
-                     effect=InOrder(BuyFromSupplyUpTo(5).into(MoveToHand()), ChooseFromHand().into(MoveToDeck())))
+                     effect=InOrder(BuyFromSupplyUpTo(5).into(MoveToHand()),
+                                    ChooseFrom(CardsInHand()).into(MoveToDeck())))
 
 
 DOMINION_CARDS = [cellar, chapel, moat, harbinger, merchant, vassal, village, workshop, bureaucrat, militia,
