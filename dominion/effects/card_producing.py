@@ -1,12 +1,29 @@
 from .effect import Effect, as_names
 
 
-class TakeFromHand(Effect):
-    def __init__(self, card_constructor):
-        self.name = card_constructor.__name__
+class ChooseAndTake(Effect):
+    def invoke(self, player_handle, game, collection):
+        names = as_names(collection)
+        card_name = player_handle.choose_card_from(names)
+        return collection.pop(names.index(card_name))
 
-    def invoke(self, player_handle, game, arg):
-        return game.take_from_hand(player_handle, self.name)
+
+class ChooseAndTakeHighTreasure(Effect):
+    def invoke(self, player_handle, game, collection):
+        names = as_names(collection)
+        high_treasure_names = as_names(filter(lambda card: card.is_high_treasure(), collection))
+        card_name = player_handle.choose_card_from(high_treasure_names)
+        return collection.pop(names.index(card_name))
+
+
+class TakeFromHand(Effect):
+    def invoke(self, player_handle, game, card_name):
+        return game.take_from_hand(player_handle, card_name)
+
+
+class TakeFromDiscard(Effect):
+    def invoke(self, player_handle, game, card_name):
+        return game.take_from_discard(player_handle, card_name)
 
 
 class PopCardFromDeck(Effect):
@@ -20,38 +37,6 @@ class PopFromSupply(Effect):
 
     def invoke(self, player_handle, game, arg):
         return game.buy(self.card_name)
-
-
-class ChooseFromCollection(Effect):
-    def invoke(self, player_handle, game, collection):
-        names = as_names(collection)
-        card_name = player_handle.choose_card_from(names)
-        return collection.pop(names.index(card_name))
-
-
-class ChooseHighTreasureFromCollection(Effect):
-    def invoke(self, player_handle, game, collection):
-        names = as_names(collection)
-        high_treasure_names = as_names(filter(lambda card: card.is_high_treasure(), collection))
-
-        card_name = player_handle.choose_card_from(high_treasure_names)
-        return collection.pop(names.index(card_name))
-
-
-class ChooseFrom(Effect):
-    def __init__(self, effect, card_type=None):
-        self.effect = effect
-        self.card_type = card_type
-
-    def invoke(self, player_handle, game, arg):
-        collection = self.effect.invoke(player_handle, game, arg)
-        names = as_names(collection)
-        if self.card_type is not None:
-            choices = as_names(list(filter(lambda card: card.is_type(self.card_type), collection)))
-        else:
-            choices = names
-        card_name = player_handle.choose_card_from(choices)
-        return collection.pop(names.index(card_name))
 
 
 class CardsInHand(Effect):

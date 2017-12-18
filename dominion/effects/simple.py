@@ -33,3 +33,11 @@ class GainCoins(Effect):
 class DrawCard(Effect):
     def invoke(self, player_handle, game, arg):
         game.draw_card_for(player_handle)
+
+
+class Const(Effect):
+    def __init__(self, value):
+        self.value = value
+
+    def invoke(self, player_handle, game, arg):
+        return self.value
