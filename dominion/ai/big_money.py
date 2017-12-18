@@ -1,5 +1,5 @@
 from dominion import AIPlayer
-from dominion.cards import smithy
+from dominion.cards import smithy, witch
 
 """
 Big Money AIs from http://wiki.dominionstrategy.com/index.php/Big_Money
@@ -38,8 +38,23 @@ class SmithyBigMoneyPlayer(BigMoneyPlayer):
             self.play('smithy')
 
     def get_card_to_buy(self):
-        if self.can_buy('smithy') and self.turn_number < 3:
+        if self.can_buy('smithy') and self.num_of['smithy'] < 2:
             self.buy('smithy')
+        else:
+            return super().get_card_to_buy()
+
+
+class WitchBigMoneyPlayer(BigMoneyPlayer):
+    def requires(self):
+        return [witch]
+
+    def action_phase(self):
+        if self.can_play('witch'):
+            self.play('witch')
+
+    def get_card_to_buy(self):
+        if self.can_buy('witch') and self.num_of['witch'] < 2:
+            self.buy('witch')
         else:
             return super().get_card_to_buy()
 
