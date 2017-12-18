@@ -4,7 +4,9 @@ class Supply {
         this.cardCosts = {};
         this.supplyPiles = {};
 
-        this.supplyObjects = {};
+        this.cardBitmaps = {};
+        this.cardText = {};
+        this.cardTextOutline = {};
     }
 
     handleNotifyJoinedGame(message) {
@@ -17,21 +19,36 @@ class Supply {
 
     handleNotifyCardBought(message) {
         this.supplyPiles[message.card] -= 1;
-        this.supplyObjects[message.card].text.text = this.supplyPiles[message.card];
+        this.cardText[message.card].text = this.supplyPiles[message.card];
+        this.cardTextOutline[message.card].text = this.supplyPiles[message.card];
+        if (this.supplyPiles[message.card] == 0) {
+            stage.removeChild(this.cardBitmaps[card]);
+            stage.removeChild(this.cardTextOutline[card]);
+            stage.removeChild(this.cardText[card]);
+        }
+    }
+
+    initializeCardAt(card, x, y) {
+        this.cardBitmaps[card] = makeCardAt(card, x, y);
+        this.cardText[card] = makeTextAt(x + 7.5, y + 5, this.supplyPiles[card], "white", 0);
+        this.cardTextOutline[card] = makeTextAt(x + 7.5, y + 5.5, this.supplyPiles[card], "black", 3);
+        stage.addChild(this.cardBitmaps[card]);
+        stage.addChild(this.cardTextOutline[card]);
+        stage.addChild(this.cardText[card]);
     }
 
     initializeSupplyPiles() {
         var x = cardPadding;
         var y = cardHeight + 2 * cardPadding;
         for (var card of ['copper', 'silver', 'gold']) {
-            this.supplyObjects[card] = makeCardWithTextAt(card, x, y, this.supplyPiles[card]);
+            this.initializeCardAt(card, x, y);
             x += cardWidth + cardPadding;
         }
 
         x = cardPadding;
         y += cardHeight + cardPadding;
         for (var card of ['curse', 'estate', 'duchy', 'province']) {
-            this.supplyObjects[card] = makeCardWithTextAt(card, x, y, this.supplyPiles[card]);
+            this.initializeCardAt(card, x, y);
             x += cardWidth + cardPadding;
         }
 
@@ -42,7 +59,7 @@ class Supply {
         y = cardHeight + 2 * cardPadding;
         for (var i = 0; i < 5; i++) {
             var card = sortedCards[i];
-            this.supplyObjects[card] = makeCardWithTextAt(card, x, y, this.supplyPiles[card]);
+            this.initializeCardAt(card, x, y);
             x += cardWidth + cardPadding;
         }
 
@@ -50,26 +67,20 @@ class Supply {
         y = 2 * (cardHeight + cardPadding) + cardPadding;
         for (var i = 5; i < 10; i++) {
             var card = sortedCards[i];
-            this.supplyObjects[card] = makeCardWithTextAt(card, x, y, this.supplyPiles[card]);
+            this.initializeCardAt(card, x, y);
             x += cardWidth + cardPadding;
-        }
-
-        for (var supplyObj of Object.values(this.supplyObjects)) {
-            stage.addChild(supplyObj.card);
-            stage.addChild(supplyObj.box);
-            stage.addChild(supplyObj.text);
         }
     }
 
     addClickListenerToCard(card, onClickFn) {
-        this.supplyObjects[card].card.addEventListener('click', onClickFn);
-        highlightCard(this.supplyObjects[card].card);
+        this.cardBitmaps[card].addEventListener('click', onClickFn);
+        highlightCard(this.cardBitmaps[card]);
     }
 
     removeClickListeners() {
         for (let card of Object.keys(this.supplyPiles)) {
-            this.supplyObjects[card].card.removeAllEventListeners('click');
-            unhighlightCard(this.supplyObjects[card].card);
+            this.cardBitmaps[card].removeAllEventListeners('click');
+            unhighlightCard(this.cardBitmaps[card]);
         }
     }
 }

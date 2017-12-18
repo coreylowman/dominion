@@ -9,6 +9,9 @@ canvas.height = document.body.clientHeight;
 var stage = new createjs.Stage("dominionCanvas");
 stage.enableMouseOver(20);
 
+// original: 200 x 320
+// big screen: 120 x 192
+// small screen: 100 x 160
 var cardWidth = 120;
 var cardHeight = 192;
 var cardPadding = 15;
@@ -91,6 +94,8 @@ function onConnect(event) {
     var args = {
         name: name,
         game: 'random',
+        ai: 'BigMoneyPlayer',
+        requires: ['workshop', 'gardens'],
     };
     websocket.send(JSON.stringify(args));
 }

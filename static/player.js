@@ -32,9 +32,9 @@ class Player {
             this.finishButton.style.top = this.handContainer.y + 'px';
         }
 
-        this.actionsText = makeTextAt(10, this.handContainer.y + 30, "Actions: 0");
-        this.buysText = makeTextAt(10, this.handContainer.y + 55, "Buys: 0");
-        this.coinsText = makeTextAt(10, this.handContainer.y + 80, "Coins: 0");
+        this.actionsText = makeTextAt(10, this.handContainer.y + 30, "Actions: 0", "#ffffff", 0);
+        this.buysText = makeTextAt(10, this.handContainer.y + 55, "Buys: 0", "#ffffff", 0);
+        this.coinsText = makeTextAt(10, this.handContainer.y + 80, "Coins: 0", "#ffffff", 0);
         stage.addChild(this.actionsText, this.buysText, this.coinsText);
     }
 

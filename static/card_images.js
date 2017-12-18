@@ -25,14 +25,6 @@ function loadCards(onCompleteFn) {
     imageForCard['?'] = imageForCard['card_back'];
 }
 
-function makeCardWithTextAt(name, x, y, text) {
-    var obj = {};
-    obj.card = makeCardAt(name, x, y);
-    obj.box = makeBoxAt(x + 5, y + 5, 20, 20, "red");
-    obj.text = makeTextAt(x + 7.5, y + 7.5, text);
-    return obj;
-}
-
 function makeCardAt(name, x, y) {
     var bitmap = new createjs.Bitmap(imageForCard[name]);
     bitmap.x = x;
@@ -52,7 +44,7 @@ function highlightCard(bitmap) {
         bitmap.highlight = new createjs.Shape();
         var pt = bitmap.localToGlobal(0, 0);
         bitmap.highlight.graphics
-            .beginStroke("red")
+            .beginStroke("blue")
             .setStrokeStyle(3)
             .drawRect(pt.x, pt.y, cardWidth, cardHeight);
         stage.addChild(bitmap.highlight);
@@ -92,9 +84,10 @@ function makeBoxAt(x, y, width, height, color) {
     return box;
 }
 
-function makeTextAt(x, y, str) {
-    var text = new createjs.Text(str, "15px Arial", "#ffffff");
+function makeTextAt(x, y, str, color, outline) {
+    var text = new createjs.Text(str, "17px Arial", color);
     text.x = x;
     text.y = y;
+    text.outline = outline;
     return text;
 }
