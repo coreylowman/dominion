@@ -1,10 +1,11 @@
 import json
-import random
 from flask import Flask
 from flask_sockets import Sockets
 from geventwebsocket.websocket import WebSocket
 
-from dominion import Game, DOMINION_CARDS, PREMADE_GAMES, WebsocketPlayer, BigMoneyPlayer
+from dominion import make_premade_game, make_random_game, WebsocketPlayer
+import dominion.cards
+import dominion.ai
 
 app = Flask(__name__)
 sockets = Sockets(app)
@@ -17,13 +18,14 @@ def play_game(websocket: WebSocket):
 
     print('Starting game with {}'.format(args))
 
-    if args['game'] == 'random':
-        game = Game(random.sample(DOMINION_CARDS, 10))
-    else:
-        game = Game(PREMADE_GAMES[args['game']])
+    player = WebsocketPlayer(args['name'], websocket)
+    ai = getattr(dominion.ai, args['ai'])(args['ai'], 1)
 
-    game.add_player(BigMoneyPlayer('BigMoneyGuy'))
-    game.add_player(WebsocketPlayer(args['name'], websocket))
+    if args['game'] == 'random':
+        reqs = list(map(lambda req: getattr(dominion.cards, req), args['requires']))
+        game = make_random_game(player, ai, set(ai.requires() + reqs))
+    else:
+        game = make_premade_game(player, ai, args['game'])
 
     game.start()
     while not game.is_over():

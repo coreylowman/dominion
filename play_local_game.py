@@ -1,14 +1,18 @@
 import argparse
 from dominion import *
+import dominion.ai
 
 parser = argparse.ArgumentParser()
-parser.add_argument('game', choices=PREMADE_GAMES.keys(), default='First Game', help='Set of kingdom cards to use')
+parser.add_argument('ai', help='AI to use')
 args = parser.parse_args()
 
-game = Game(PREMADE_GAMES[args.game])
+ai_player = getattr(dominion.ai, args.ai)(args.ai)
+console_player = ConsolePlayer()
 
-game.add_player(ConsolePlayer())
-game.add_player(BigMoneyPlayer('BigMoneyPlayer'))
+game = make_random_game(console_player, ai_player, ai_player.requires())
+
+game.add_player(console_player)
+game.add_player(ai_player)
 
 game.start()
 while not game.is_over():

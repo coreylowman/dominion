@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 ai_for_player = {'Player1': args.player1, 'Player2': args.player2}
 
-num_draws = 0
+draw_reasons = defaultdict(int)
 wins_for_player = {'Player1': 0, 'Player2': 0}
 vp_for_player = {'Player1': [], 'Player2': []}
 game_turn_lengths = []
@@ -23,21 +23,7 @@ for i in range(args.num_games):
     player1 = getattr(dominion.ai, args.player1)('Player1')
     player2 = getattr(dominion.ai, args.player2)('Player2')
 
-    possible_choices = set(DOMINION_CARDS)
-
-    kingdom_cards = set()
-    kingdom_cards.update(player1.requires())
-    kingdom_cards.update(player2.requires())
-
-    # remove all the cards already in kingdom_cards from the choices
-    possible_choices.difference_update(kingdom_cards)
-
-    kingdom_cards.update(random.sample(possible_choices, 10 - len(kingdom_cards)))
-
-    game = Game(cards)
-
-    game.add_player(player1)
-    game.add_player(player2)
+    game = make_random_game(player1, player2, set(player1.requires() + player2.requires()))
 
     start_time = datetime.datetime.now()
 
@@ -51,7 +37,7 @@ for i in range(args.num_games):
         wins_for_player[game.winner()] += 1
         win_reasons_for_player[game.winner()][game.finish_reason()] += 1
     else:
-        num_draws += 1
+        draw_reasons[game.finish_reason()] += 1
 
     points = game.victory_points_by_player()
     for player in points:
@@ -59,13 +45,16 @@ for i in range(args.num_games):
     game_turn_lengths.append(game.turn_number)
     game_times.append(end_time - start_time)
 
-print('Draws: {}'.format(num_draws))
+print('Draws: {}'.format(sum(draw_reasons.values())))
+print('Draw reasons: {}'.format(dict(draw_reasons)))
 print('Avg game turn length: {}'.format(sum(game_turn_lengths) / len(game_turn_lengths)))
 print('Avg game time: {}'.format(sum(game_times, datetime.timedelta(0)) / len(game_times)))
 print()
 
+won_games = args.num_games - sum(draw_reasons.values())
+
 for player in sorted(wins_for_player, key=wins_for_player.get, reverse=True):
     print('{} stats'.format(ai_for_player[player]))
-    print('\tWins: {}'.format(wins_for_player[player]))
+    print('\tWins: {} ({:.2f}%)'.format(wins_for_player[player], 100.0 * wins_for_player[player] / won_games))
     print('\tWin reasons: {}'.format(dict(win_reasons_for_player[player])))
     print('\tAvg points per game: {}'.format(sum(vp_for_player[player]) / len(vp_for_player[player])))
