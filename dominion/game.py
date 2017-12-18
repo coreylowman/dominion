@@ -35,12 +35,12 @@ class PlayerState:
     def play_remaining_treasures(self):
         remaining_treasures = list(map(lambda card: card.name, filter(lambda card: card.is_treasure(), self.hand)))
         for card_name in remaining_treasures:
-            self.game.play_card_for(self.handle, card_name)
+            self.handle.play(card_name)
 
     def victory_points(self):
         points = 0
         for card in self.all_cards():
-            points += card.victory_points.invoke(self, self.game, None)
+            points += card.victory_points.invoke(self.handle, self.game, None)
         return points
 
 
@@ -123,6 +123,8 @@ class Game:
         return vp_by_player
 
     def start(self):
+        random.shuffle(self.player_handles)
+
         for handle in self.player_handles:
             handle.notify_started_game()
 
@@ -187,7 +189,7 @@ class Game:
         while len(state.play_area) > 0:
             self.move_to_discard(player_handle, self.take_from_play_area(player_handle, state.play_area[0].name))
 
-        for i in range(5):
+        for i in range(min(5, state.num_cards())):
             self.draw_card_for(player_handle)
 
     def play_card_for(self, player_handle, card_name):
@@ -255,6 +257,9 @@ class Game:
 
     def discard_of(self, player_handle):
         return self.player_state_by_handle[player_handle].discard
+
+    def deck_of(self, player_handle):
+        return self.player_state_by_handle[player_handle].deck
 
     def gain_actions_for(self, player_handle, amount):
         self.player_state_by_handle[player_handle].actions += amount

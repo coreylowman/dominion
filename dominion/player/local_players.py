@@ -1,10 +1,14 @@
 from abc import abstractmethod
 from .player_handle import PlayerHandle
+from collections import defaultdict
+import time
 
 
 class LocalPlayerHandle(PlayerHandle):
-    def __init__(self, name):
+    def __init__(self, name, lag=0):
         super().__init__(name)
+
+        self.lag = lag
 
         self.my_turn = False
 
@@ -19,6 +23,13 @@ class LocalPlayerHandle(PlayerHandle):
         self.cost_of = {}
         self.is_action = {}
 
+        self.num_of = defaultdict(int)
+        self.num_of['copper'] = 7
+        self.num_of['estate'] = 3
+
+        self.choices = []
+        self.answers = []
+
     def notify_joined_game(self, supply_piles, card_costs, card_is_action):
         self.num_left_of = supply_piles
         self.cost_of = card_costs
@@ -31,21 +42,31 @@ class LocalPlayerHandle(PlayerHandle):
             self.turn_number += 1
             if self.can_play_anything():
                 self.action_phase()
+            time.sleep(self.lag)
             self.finish_action_phase()
 
     @abstractmethod
     def action_phase(self):
         pass
 
+    def play(self, card_name):
+        super().play(card_name)
+        time.sleep(self.lag)
+
     def notify_started_buy_phase(self, player):
         if player == self.name:
             if self.can_buy_anything():
                 self.buy_phase()
+            time.sleep(self.lag)
             self.finish_turn()
 
     @abstractmethod
     def buy_phase(self):
         pass
+
+    def buy(self, card_name):
+        super().buy(card_name)
+        time.sleep(self.lag)
 
     def notify_gained_actions(self, player, amount):
         if self.name == player:
@@ -69,6 +90,12 @@ class LocalPlayerHandle(PlayerHandle):
 
     def notify_card_bought(self, card):
         self.num_left_of[card] -= 1
+        if self.my_turn:
+            self.num_of[card] += 1
+
+    def notify_trashed_card(self, player, card):
+        if self.name == player:
+            self.num_of[card] -= 1
 
     def can_play_anything(self):
         return self.actions > 0 and len(self.cards_can_play()) > 0
