@@ -41,3 +41,11 @@ class AskYesOrNo(Effect):
 
     def invoke(self, player_handle, game, arg):
         return player_handle.ask_yes_or_no(self.prompt)
+
+
+class AnyIn(Effect):
+    def __init__(self, collection_effect):
+        self.effect = collection_effect
+
+    def invoke(self, player_handle, game, arg):
+        return len(self.effect.invoke(player_handle, game, arg)) > 0

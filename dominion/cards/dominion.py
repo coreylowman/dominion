@@ -4,16 +4,14 @@ from .base import *
 def cellar():
     return make_card(cellar.__name__, cost=2, type=CardType.ACTION,
                      effect=InOrder(GainActions(1),
-                                    While(Len(CardsInHand()).greater_than(Const(0))
-                                          .and_(AskYesOrNo('Discard another card?')),
+                                    While(AnyIn(CardsInHand()).and_(AskYesOrNo('Discard another card?')),
                                           ChooseFrom(CardsInHand()).into(TakeFromHand()))
                                     .for_each(MoveToDiscard()).into(Count()).times(DrawCard())))
 
 
 def chapel():
     return make_card(chapel.__name__, cost=2, type=CardType.ACTION,
-                     effect=InOrder(While(Len(CardsInHand()).greater_than(Const(0))
-                                          .and_(AskYesOrNo('Trash another card?')),
+                     effect=InOrder(While(AnyIn(CardsInHand()).and_(AskYesOrNo('Trash another card?')),
                                           ChooseFrom(CardsInHand()).into(TakeFromHand()))
                                     .for_each(MoveToTrash())))
 
@@ -25,8 +23,7 @@ def moat():
 def harbinger():
     return make_card(harbinger.__name__, cost=3, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1),
-                                    If(Len(CardsInDiscard()).greater_than(Const(0)).and_(
-                                        AskYesOrNo('Take card from discard?')),
+                                    If(AnyIn(CardsInDiscard()).and_(AskYesOrNo('Take card from discard?')),
                                        ChooseFrom(CardsInDiscard()).into(TakeFromDiscard()).into(MoveToDeck()))))
 
 
@@ -38,7 +35,7 @@ def merchant():
 def vassal():
     return make_card(vassal.__name__, cost=3, type=CardType.ACTION,
                      effect=InOrder(GainCoins(2),
-                                    If(Len(CardsNotInPlay()).greater_than(Const(0)),
+                                    If(AnyIn(CardsNotInPlay()),
                                        PopCardFromDeck().into(
                                            IfElse(CardIsAction().and_(AskYesOrNo('Play action?')),
                                                   PlayCard(),
@@ -81,13 +78,13 @@ def poacher():
     return make_card(poacher.__name__, cost=4, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1), GainCoins(1),
                                     NumEmptyPiles().times(
-                                        If(Len(CardsInHand()).greater_than(Const(0)),
+                                        If(AnyIn(CardsInHand()),
                                            ChooseFrom(CardsInHand()).into(TakeFromHand()).into(MoveToDiscard())))))
 
 
 def remodel():
     return make_card(remodel.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(Len(CardsInHand()).greater_than(Const(0)),
+                     effect=If(AnyIn(CardsInHand()),
                                ChooseFrom(CardsInHand()).into(TakeFromHand()).into(
                                    InOrder(MoveToTrash(), BuyFromSupplyUpToMore(2).into(MoveToDiscard())))))
 
@@ -98,7 +95,7 @@ def smithy():
 
 def throne_room():
     return make_card(throne_room.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(Len(CardsInHand()).greater_than(Const(0)),
+                     effect=If(AnyIn(CardsInHand()),
                                ChooseFrom(CardsInHand()).into(TakeFromHand()).into(InOrder(PlayCard(), PlayCard()))))
 
 
@@ -106,13 +103,12 @@ def bandit():
     return make_card(bandit.__name__, type=CardType.ACTION | CardType.ATTACK, cost=5,
                      effect=InOrder(If(CardIsAvailable(gold),
                                        PopFromSupply(gold).into(MoveToDiscard())),
-                                    MakeOpponents(
-                                        Const(2)
-                                            .times(If(Len(CardsNotInPlay()).greater_than(Const(0)), PopCardFromDeck()))
-                                            .into(FilterOutNone())
-                                            .into(InOrder(If(CollectionHasHighTreasure(),
-                                                             ChooseAndTakeHighTreasure().into(MoveToTrash())),
-                                                          ForEach(MoveToDiscard()))))))
+                                    MakeOpponents(Const(2)
+                                                  .times(If(AnyIn(CardsNotInPlay()), PopCardFromDeck()))
+                                                  .into(FilterOutNone())
+                                                  .into(InOrder(If(CollectionHasHighTreasure(),
+                                                                   ChooseAndTakeHighTreasure().into(MoveToTrash())),
+                                                                ForEach(MoveToDiscard()))))))
 
 
 def council_room():
@@ -133,7 +129,7 @@ def laboratory():
 def library():
     return make_card(library.__name__, cost=5, type=CardType.ACTION,
                      effect=While(
-                         Len(CardsInHand()).less_than(Const(7)).and_(Len(CardsNotInPlay()).greater_than(Const(0))),
+                         Len(CardsInHand()).less_than(Const(7)).and_(AnyIn(CardsNotInPlay())),
                          PopCardFromDeck().into(
                              IfElse(CardIsAction().and_(AskYesOrNo('Skip action card?')),
                                     MoveToTempArea(),
@@ -157,7 +153,7 @@ def sentry():
     return make_card(sentry.__name__, cost=5, type=CardType.ACTION,
                      effect=InOrder(DrawCard(), GainActions(1),
                                     Const(2).times(
-                                        If(Len(CardsNotInPlay()).greater_than(Const(0)), PopCardFromDeck()))
+                                        If(AnyIn(CardsNotInPlay()), PopCardFromDeck()))
                                     .into(FilterOutNone())
                                     .for_each(
                                         IfElse(AskYesOrNo('Trash card?'),
