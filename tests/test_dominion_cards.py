@@ -51,7 +51,8 @@ class CardTestCard(TestCase):
         return result
 
     def _play(self, card):
-        self.game.play_card(self.player_handle, card)
+        self.game.move_to_hand(self.player_handle, card)
+        self.game.play_card_for(self.player_handle, card.name)
 
     def test_type(self):
         self.assertFalse(copper().is_action())
@@ -160,6 +161,9 @@ class CardTestCard(TestCase):
     def test_harbinger(self):
         self.player.discard = self._make((2, copper), (3, silver), (2, gold))
         self.player.deck = self._make((3, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # take a gold from discard
         self.player_handle.answers = [True]
@@ -173,7 +177,7 @@ class CardTestCard(TestCase):
         # don't take anything from discard
         self.player_handle.answers = [False]
         self._play(harbinger())
-        self.assertEqual(self.player.actions, 2)
+        self.assertEqual(self.player.actions, 1)
         self.assertListEqual(self.player.hand, self._make((1, curse), (1, gold)))
         self.assertListEqual(self.player.discard, self._make((2, copper), (3, silver), (1, gold)))
         self.assertListEqual(self.player.deck, self._make((2, curse)))
@@ -182,7 +186,7 @@ class CardTestCard(TestCase):
         self.player_handle.answers = [True]
         self.player_handle.choices = ['silver']
         self._play(harbinger())
-        self.assertEqual(self.player.actions, 3)
+        self.assertEqual(self.player.actions, 1)
         self.assertListEqual(self.player.hand, self._make((1, curse), (1, gold), (1, curse)))
         self.assertListEqual(self.player.discard, self._make((2, copper), (2, silver), (1, gold)))
         self.assertListEqual(self.player.deck, self._make((1, curse), (1, silver)))
@@ -191,13 +195,16 @@ class CardTestCard(TestCase):
         self.player_handle.answers = [True]
         self.player_handle.choices = ['copper']
         self._play(harbinger())
-        self.assertEqual(self.player.actions, 4)
+        self.assertEqual(self.player.actions, 1)
         self.assertListEqual(self.player.hand, self._make((1, curse), (1, gold), (1, curse), (1, silver)))
         self.assertListEqual(self.player.discard, self._make((1, copper), (2, silver), (1, gold)))
         self.assertListEqual(self.player.deck, self._make((1, curse), (1, copper)))
 
     def test_merchant(self):
         self.player.deck = self._make((2, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         self._play(merchant())
         self.assertEqual(self.player.actions, 1)
@@ -206,10 +213,11 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.player.hand, self._make((1, curse)))
 
         self._play(silver())
+        self.assertEqual(self.player.actions, 1)
         self.assertEqual(self.player.coins, 3)
 
         self._play(merchant())
-        self.assertEqual(self.player.actions, 2)
+        self.assertEqual(self.player.actions, 1)
         self.assertEqual(self.player.coins, 4)
         self.assertListEqual(self.player.deck, [])
         self.assertListEqual(self.player.hand, self._make((2, curse)))
@@ -219,6 +227,9 @@ class CardTestCard(TestCase):
 
     def test_vassal(self):
         self.player.deck = self._make((1, festival), (1, village), (1, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         self._play(vassal())
         self.assertListEqual(self.player.discard, self._make((1, curse)))
@@ -229,19 +240,22 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.player.discard, self._make((1, curse), (1, village)))
         self.assertListEqual(self.player.deck, self._make((1, festival)))
         self.assertListEqual(self.player.hand, [])
-        self.assertEqual(self.player.actions, 0)
+        self.assertEqual(self.player.actions, -1)
 
         self.player_handle.answers = [True]
         self._play(vassal())
         self.assertListEqual(self.player.discard, self._make((1, curse), (1, village)))
         self.assertListEqual(self.player.deck, [])
         self.assertListEqual(self.player.hand, [])
-        self.assertEqual(self.player.actions, 2)
+        self.assertEqual(self.player.actions, 0)
         self.assertEqual(self.player.buys, 1)
         self.assertEqual(self.player.coins, 8)
 
     def test_village(self):
         self.player.deck = self._make((1, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         self._play(village())
         self.assertEqual(self.player.actions, 2)
@@ -302,6 +316,9 @@ class CardTestCard(TestCase):
 
     def test_poacher(self):
         self.player.deck = self._make((4, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # no empty piles
         self._play(poacher())
@@ -318,7 +335,7 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.player.deck, self._make((2, curse)))
         self.assertListEqual(self.player.hand, self._make((1, curse)))
         self.assertListEqual(self.player.discard, self._make((1, curse)))
-        self.assertEqual(self.player.actions, 2)
+        self.assertEqual(self.player.actions, 1)
         self.assertEqual(self.player.coins, 2)
 
         # copper & silver pile empty - 2 discards
@@ -330,7 +347,7 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.player.deck, self._make((1, curse)))
         self.assertListEqual(self.player.hand, self._make((1, curse)))
         self.assertListEqual(self.player.discard, self._make((1, curse), (1, estate), (1, duchy)))
-        self.assertEqual(self.player.actions, 3)
+        self.assertEqual(self.player.actions, 1)
         self.assertEqual(self.player.coins, 3)
 
     def test_remodel(self):
@@ -361,6 +378,7 @@ class CardTestCard(TestCase):
 
         self.assertListEqual(self.player.deck, self._make((2, curse)))
         self.assertListEqual(self.player.hand, self._make((6, curse)))
+        self.assertListEqual(self.player.play_area, self._make((1, throne_room), (1, smithy)))
 
     def test_bandit_none(self):
         self.other_player.deck = self._make((1, curse), (1, copper))
@@ -392,6 +410,9 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.other_player.deck, self._make((1, curse)))
 
     def test_festival(self):
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
         self._play(festival())
         self.assertEqual(self.player.actions, 2)
         self.assertEqual(self.player.buys, 1)
@@ -399,6 +420,9 @@ class CardTestCard(TestCase):
 
     def test_laboratory(self):
         self.player.deck = self._make((3, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         self._play(laboratory())
 
@@ -416,6 +440,9 @@ class CardTestCard(TestCase):
 
     def test_market(self):
         self.player.deck = self._make((2, curse))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         self._play(market())
 
@@ -441,6 +468,9 @@ class CardTestCard(TestCase):
 
     def test_sentry_trash_trash(self):
         self.player.deck = self._make((1, smithy), (1, copper), (1, curse), (1, mine))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # trash curse ([True]), trash copper ([True])
         self.player_handle.answers = [True, True]
@@ -454,6 +484,9 @@ class CardTestCard(TestCase):
 
     def test_sentry_trash_discard(self):
         self.player.deck = self._make((1, smithy), (1, copper), (1, curse), (1, mine))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # trash curse ([True]), discard copper ([False, True])
         self.player_handle.answers = [True, False, True]
@@ -467,6 +500,9 @@ class CardTestCard(TestCase):
 
     def test_sentry_keep_all_reverse(self):
         self.player.deck = self._make((1, smithy), (1, copper), (1, curse), (1, mine))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # keep curse ([False, False]), keep copper ([False, False])
         self.player_handle.answers = [False, False, False, False]
@@ -482,6 +518,9 @@ class CardTestCard(TestCase):
 
     def test_sentry_keep_all(self):
         self.player.deck = self._make((1, smithy), (1, copper), (1, curse), (1, mine))
+        self.player.actions = 1
+        self.player.buys = 0
+        self.player.coins = 0
 
         # keep curse ([False, False]), keep copper ([False, False])
         self.player_handle.answers = [False, False, False, False]

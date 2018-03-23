@@ -43,6 +43,10 @@ class PlayerState:
             points += card.victory_points.invoke(self.handle, self.game, None)
         return points
 
+    def __str__(self):
+        return 'PlayerState(actions={}, buys={}, coins={}, deck={}, hand={},play_area={}, discard={}, temp_area={}'.format(
+            self.actions, self.buys, self.coins, self.deck, self.hand, self.play_area, self.discard, self.temp_area)
+
 
 class Game:
     def __init__(self, kingdom_card_constructors):
@@ -66,6 +70,8 @@ class Game:
         self.player_state_by_handle = {}
 
         self.trash = []
+
+        self.history = []
 
     def add_player(self, player_handle):
         player_handle.join_game(self)
@@ -115,6 +121,10 @@ class Game:
     def winner(self):
         vp_by_player = self.victory_points_by_player()
         return max(vp_by_player, key=vp_by_player.get)
+
+    def loser(self):
+        vp_by_player = self.victory_points_by_player()
+        return min(vp_by_player, key=vp_by_player.get)
 
     def victory_points_by_player(self):
         vp_by_player = {}
@@ -196,32 +206,27 @@ class Game:
         if not self.is_players_turn(player_handle) or not self.current_phase == Phase.ACTION:
             return
 
+        self.history.append('{} played {}'.format(player_handle.name, card_name))
+
         card = self.take_from_hand(player_handle, card_name)
+        self.move_to_play_area(player_handle, card)
         self.play_card(player_handle, card)
 
         if card.is_action():
             self.gain_actions_for(player_handle, -1)
 
     def play_card(self, player_handle, card):
-        state = self.player_state_by_handle[player_handle]
-
-        for played_card in state.play_area:
-            played_card.handle_card_played(player_handle, self, card.name)
-
-        state.play_area.append(card)
-
-        for handle in self.player_handles:
-            handle.notify_played_card(player_handle.name, card.name)
-
         card.play(player_handle, self)
-
-        for played_card in state.play_area[:-1]:
+        for played_card in self.player_state_by_handle[player_handle].play_area[:-1]:
+            played_card.handle_card_played(player_handle, self, card.name)
             card.handle_card_played(player_handle, self, played_card.name)
 
     def buy_card_for(self, player_handle, card_name):
         if not self.is_players_turn(player_handle) or not self.current_phase == Phase.BUY \
                 or not self.can_buy(card_name, self.player_state_by_handle[player_handle].coins):
             return
+
+        self.history.append('{} bought {}'.format(player_handle.name, card_name))
 
         card = self.buy(card_name)
         self.move_to_discard(player_handle, card)
@@ -252,6 +257,9 @@ class Game:
     def number_of_cards(self, player_handle):
         return self.player_state_by_handle[player_handle].num_cards()
 
+    def cards_of(self, player_handle):
+        return self.player_state_by_handle[player_handle].all_cards()
+
     def hand_of(self, player_handle):
         return self.player_state_by_handle[player_handle].hand
 
@@ -277,7 +285,8 @@ class Game:
             handle.notify_gained_coins(player_handle.name, amount)
 
     def draw_card_for(self, player_handle):
-        self.move_to_hand(player_handle, self.take_from_deck(player_handle))
+        if len(self.deck_of(player_handle)) > 0 or len(self.discard_of(player_handle)) > 0:
+            self.move_to_hand(player_handle, self.take_from_deck(player_handle))
 
     def move_to_hand(self, player_handle, card):
         self.player_state_by_handle[player_handle].hand.append(card)
@@ -289,6 +298,11 @@ class Game:
         for handle in self.player_handles:
             handle.notify_gained_card_to_deck(player_handle.name, card.name if handle == player_handle else '?')
 
+    def move_to_play_area(self, player_handle, card):
+        self.player_state_by_handle[player_handle].play_area.append(card)
+        for handle in self.player_handles:
+            handle.notify_played_card(player_handle.name, card.name)
+
     def move_to_discard(self, player_handle, card):
         self.player_state_by_handle[player_handle].discard.append(card)
         for handle in self.player_handles:
@@ -298,6 +312,8 @@ class Game:
         self.trash.append(card)
         for handle in self.player_handles:
             handle.notify_trashed_card(player_handle.name, card.name)
+
+        self.history.append('{} trashed {}'.format(player_handle, card.name))
 
     def take_from_deck(self, player_handle):
         state = self.player_state_by_handle[player_handle]

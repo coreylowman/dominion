@@ -1,2 +1,5 @@
 flask
 Flask-Sockets
+keras
+numpy
+h5py

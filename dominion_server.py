@@ -19,11 +19,12 @@ def play_game(websocket: WebSocket):
     print('Starting game with {}'.format(args))
 
     player = WebsocketPlayer(args['name'], websocket)
-    ai = getattr(dominion.ai, args['ai'])(args['ai'], 1)
+    ai = getattr(dominion.ai, args['ai'])(args['ai'])
 
     if args['game'] == 'random':
-        reqs = list(map(lambda req: getattr(dominion.cards, req), args['requires']))
-        game = make_random_game(player, ai, set(ai.requires() + reqs))
+        reqs = set(map(lambda req: getattr(dominion.cards, req), args['requires']))
+        reqs.update(ai.requires())
+        game = make_random_game(player, ai, reqs)
     else:
         game = make_premade_game(player, ai, args['game'])
 

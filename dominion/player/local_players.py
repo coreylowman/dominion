@@ -5,20 +5,28 @@ import time
 
 
 class LocalPlayerHandle(PlayerHandle):
-    def __init__(self, name, lag=0):
+    def __init__(self, name):
         super().__init__(name)
 
-        self.lag = lag
-
         self.my_turn = False
+        self.is_action_phase = False
 
         self.turn_number = 0
 
         self.actions = 0
         self.coins = 0
         self.buys = 0
-        self.hand = []
 
+        self.hand = {}
+        self.cards_in_play_area = defaultdict(int)
+        self.cards_in_discard = defaultdict(int)
+        self.cards_in_discard['copper'] = 7
+        self.cards_in_discard['estate'] = 3
+        self.cards_in_deck = defaultdict(int)
+
+        self.last_card_played = None
+
+        self.total_of = {}
         self.num_left_of = {}
         self.cost_of = {}
         self.is_action = {}
@@ -31,42 +39,40 @@ class LocalPlayerHandle(PlayerHandle):
         self.answers = []
 
     def notify_joined_game(self, supply_piles, card_costs, card_is_action):
+        self.total_of = supply_piles.copy()
+        self.total_of['copper'] += 14
+        self.total_of['estate'] += 6
         self.num_left_of = supply_piles
         self.cost_of = card_costs
         self.is_action = card_is_action
 
     def notify_started_action_phase(self, player):
         self.my_turn = player == self.name
+        self.is_action_phase = True
+        self.last_card_played = None
 
         if player == self.name:
             self.turn_number += 1
             if self.can_play_anything():
                 self.action_phase()
-            time.sleep(self.lag)
             self.finish_action_phase()
 
     @abstractmethod
     def action_phase(self):
         pass
 
-    def play(self, card_name):
-        super().play(card_name)
-        time.sleep(self.lag)
-
     def notify_started_buy_phase(self, player):
+        self.is_action_phase = False
+        self.last_card_played = None
+
         if player == self.name:
             if self.can_buy_anything():
                 self.buy_phase()
-            time.sleep(self.lag)
             self.finish_turn()
 
     @abstractmethod
     def buy_phase(self):
         pass
-
-    def buy(self, card_name):
-        super().buy(card_name)
-        time.sleep(self.lag)
 
     def notify_gained_actions(self, player, amount):
         if self.name == player:
@@ -82,11 +88,39 @@ class LocalPlayerHandle(PlayerHandle):
 
     def notify_gained_card_to_hand(self, player, card):
         if self.name == player:
-            self.hand.append(card)
+            if card not in self.hand:
+                self.hand[card] = 0
+            self.hand[card] += 1
 
     def notify_took_card_from_hand(self, player, card):
         if self.name == player:
-            self.hand.remove(card)
+            self.hand[card] -= 1
+            if self.hand[card] == 0:
+                del self.hand[card]
+
+    def notify_gained_card_to_deck(self, player, card):
+        if self.name == player:
+            self.cards_in_deck[card] += 1
+
+    def notify_took_card_from_deck(self, card):
+        self.cards_in_deck[card] -= 1
+
+    def notify_gained_card_to_discard(self, player, card):
+        if self.name == player:
+            self.cards_in_discard[card] += 1
+
+    def notify_took_card_from_discard(self, player, card):
+        if self.name == player:
+            self.cards_in_discard[card] -= 1
+
+    def notify_played_card(self, player, card):
+        self.last_card_played = card
+
+        if self.name == player:
+            self.cards_in_play_area[card] += 1
+
+    def notify_took_card_from_play_area(self, card):
+        self.cards_in_play_area[card] -= 1
 
     def notify_card_bought(self, card):
         self.num_left_of[card] -= 1

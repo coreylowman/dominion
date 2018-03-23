@@ -95,7 +95,7 @@ function onConnect(event) {
         name: name,
         game: 'random',
         ai: 'BigMoneyPlayer',
-        requires: ['workshop', 'gardens'],
+        requires: ['throne_room', 'vassal'],
     };
     websocket.send(JSON.stringify(args));
 }

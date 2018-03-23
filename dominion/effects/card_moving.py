@@ -16,6 +16,11 @@ class MoveToDeck(Effect):
         game.move_to_deck(player_handle, card)
 
 
+class MoveToPlayArea(Effect):
+    def invoke(self, player_handle, game, card):
+        game.move_to_play_area(player_handle, card)
+
+
 class MoveToDiscard(Effect):
     def invoke(self, player_handle, game, card):
         game.move_to_discard(player_handle, card)

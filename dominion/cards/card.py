@@ -51,8 +51,8 @@ class Card:
         return self.name
 
 
-def make_card(name, cost, type, effect):
-    return Card(name=name, type=type, cost=cost, victory_points=Const(0), effect=effect)
+def make_card(name, cost, type, effect, worth=Const(0)):
+    return Card(name=name, type=type, cost=cost, victory_points=worth, effect=effect)
 
 
 def make_victory(name, cost, worth, type=CardType.VICTORY):

@@ -49,3 +49,16 @@ class AnyIn(Effect):
 
     def invoke(self, player_handle, game, arg):
         return len(self.effect.invoke(player_handle, game, arg)) > 0
+
+
+class CanSellToBuyWithMore(Effect):
+    def __init__(self, additional_coins, card_type=None):
+        self.additional_coins = additional_coins
+        self.card_type = card_type
+
+    def invoke(self, player_handle, game, card):
+        collection = game.hand_of(player_handle)
+        if self.card_type is not None:
+            collection = list(filter(lambda card: card.is_type(self.card_type), collection))
+        return any(map(lambda c: len(game.cards_can_buy_with(c.cost + self.additional_coins)) > 0,
+                       collection))

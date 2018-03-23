@@ -38,7 +38,7 @@ def vassal():
                                     If(AnyIn(CardsNotInPlay()),
                                        PopCardFromDeck().into(
                                            IfElse(CardIsAction().and_(AskYesOrNo('Play action?')),
-                                                  PlayCard(),
+                                                  InOrder(PlayCard(), MoveToPlayArea()),
                                                   MoveToDiscard())))))
 
 
@@ -47,7 +47,8 @@ def village():
 
 
 def workshop():
-    return make_card(workshop.__name__, cost=3, type=CardType.ACTION, effect=BuyFromSupplyUpTo(4).into(MoveToDiscard()))
+    return make_card(workshop.__name__, cost=3, type=CardType.ACTION,
+                     effect=If(AnyIn(CardsInSupplyCostingUpTo(4)), BuyFromSupplyUpTo(4).into(MoveToDiscard())))
 
 
 def bureaucrat():
@@ -84,8 +85,8 @@ def poacher():
 
 def remodel():
     return make_card(remodel.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(AnyIn(CardsInHand()),
-                               ChooseFrom(CardsInHand()).into(TakeFromHand()).into(
+                     effect=If(CanSellToBuyWithMore(2),
+                               ChooseFromToSellWithMore(CardsInHand(), 2).into(TakeFromHand()).into(
                                    InOrder(MoveToTrash(), BuyFromSupplyUpToMore(2).into(MoveToDiscard())))))
 
 
@@ -95,8 +96,9 @@ def smithy():
 
 def throne_room():
     return make_card(throne_room.__name__, cost=4, type=CardType.ACTION,
-                     effect=If(AnyIn(CardsInHand()),
-                               ChooseFrom(CardsInHand()).into(TakeFromHand()).into(InOrder(PlayCard(), PlayCard()))))
+                     effect=If(AnyIn(CardsInHand(CardType.ACTION)),
+                               ChooseFrom(CardsInHand(CardType.ACTION)).into(TakeFromHand()).into(InOrder(
+                                   PlayCard(), PlayCard(), MoveToPlayArea()))))
 
 
 def bandit():
@@ -144,8 +146,8 @@ def market():
 
 def mine():
     return make_card(mine.__name__, cost=5, type=CardType.ACTION,
-                     effect=If(HasCardType(CardType.TREASURE),
-                               ChooseFrom(CardsInHand(), CardType.VICTORY).into(TakeFromHand()).into(
+                     effect=If(CanSellToBuyWithMore(3, CardType.TREASURE),
+                               ChooseFromToSellWithMore(CardsInHand(), 3, CardType.TREASURE).into(TakeFromHand()).into(
                                    InOrder(MoveToTrash(), BuyFromSupplyUpToMore(3).into(MoveToHand())))))
 
 
@@ -177,8 +179,10 @@ def witch():
 
 def artisan():
     return make_card(artisan.__name__, cost=6, type=CardType.ACTION,
-                     effect=InOrder(BuyFromSupplyUpTo(5).into(MoveToHand()),
-                                    ChooseFrom(CardsInHand()).into(TakeFromHand()).into(MoveToDeck())))
+                     effect=If(AnyIn(CardsInSupplyCostingUpTo(5)),
+                               InOrder(BuyFromSupplyUpTo(5).into(MoveToHand()),
+                                       ChooseFrom(CardsInHand()).into(
+                                           TakeFromHand()).into(MoveToDeck()))))
 
 
 DOMINION_CARDS = [cellar, chapel, moat, harbinger, merchant, vassal, village, workshop, bureaucrat, militia,
