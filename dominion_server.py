@@ -5,7 +5,7 @@ from geventwebsocket.websocket import WebSocket
 
 from dominion import make_premade_game, make_random_game, WebsocketPlayer
 import dominion.cards
-import dominion.ai
+import dominion_ai
 
 app = Flask(__name__)
 sockets = Sockets(app)
@@ -19,7 +19,7 @@ def play_game(websocket: WebSocket):
     print('Starting game with {}'.format(args))
 
     player = WebsocketPlayer(args['name'], websocket)
-    ai = getattr(dominion.ai, args['ai'])(args['ai'])
+    ai = getattr(dominion_ai, args['ai'])(args['ai'])
 
     if args['game'] == 'random':
         reqs = set(map(lambda req: getattr(dominion.cards, req), args['requires']))

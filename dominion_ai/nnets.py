@@ -48,12 +48,12 @@ def build_model():
 
 
 class NNetTrainingPlayer(AIPlayer):
-    def __init__(self, name, model: Model, epsilons, use_noise):
+    def __init__(self, name, model: Model, epsilon, use_noise):
         super().__init__(name)
 
         self.model = model
         self.history = []
-        self.epsilons = epsilons
+        self.epsilon = epsilon
         self.use_noise = use_noise
 
     def get_features(self):
@@ -98,7 +98,7 @@ class NNetTrainingPlayer(AIPlayer):
     def choose_action(self, actions):
         score_by_action, _ = self.predict()
 
-        if random.uniform(0, 1) <= self.epsilons[self.turn_number]:
+        if random.uniform(0, 1) <= self.epsilon:
             action = random.choice(actions)
         else:
             action = max(actions, key=score_by_action.get)

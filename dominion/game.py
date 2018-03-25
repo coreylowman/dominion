@@ -50,6 +50,7 @@ class PlayerState:
 
 class Game:
     def __init__(self, kingdom_card_constructors):
+        # TODO can this actually be removed?
         self.kingdom_cards = list(
             map(lambda constr: constr.__name__, sorted(kingdom_card_constructors, key=lambda constr: constr().cost)))
         self.card_piles_by_name = {}
@@ -139,6 +140,7 @@ class Game:
             handle.notify_started_game()
 
         for handle, state in self.player_state_by_handle.items():
+            # TODO use move_to_discard instead
             state.discard = [copper(), copper(), copper(), copper(), copper(), copper(), copper(), estate(), estate(),
                              estate()]
             self.cleanup_for(handle)

@@ -1,6 +1,6 @@
 import argparse
 from dominion import *
-import dominion.ai
+import dominion_ai
 from collections import defaultdict
 import datetime
 
@@ -20,8 +20,8 @@ game_times = []
 win_reasons_for_player = {'Player1': defaultdict(int), 'Player2': defaultdict(int)}
 
 for i in range(args.num_games):
-    player1 = getattr(dominion.ai, args.player1)('Player1')
-    player2 = getattr(dominion.ai, args.player2)('Player2')
+    player1 = getattr(dominion_ai, args.player1)('Player1')
+    player2 = getattr(dominion_ai, args.player2)('Player2')
 
     game = make_random_game(player1, player2, set(player1.requires() + player2.requires()))
 

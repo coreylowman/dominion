@@ -1,8 +1,10 @@
 from dominion import *
-from dominion.ai import NNetTrainingPlayer, build_model
+from dominion_ai import *
 import datetime
 from keras.models import load_model
 import os
+
+log_fp = open('current.log', 'a')
 
 
 def sign(a):
@@ -31,10 +33,11 @@ def test_against_bm(model, num_games=100):
     cards_for_player = {'NNet': defaultdict(int), 'BM': defaultdict(int)}
 
     for i in range(num_games):
-        player1 = NNetTrainingPlayer('NNet', model, epsilons=defaultdict(lambda: 0.0), use_noise=False)
+        player1 = NNetTrainingPlayer('NNet', model, epsilon=0.0, use_noise=False)
         player2 = BigMoneyPlayer('BM')
 
         game = make_premade_game(player1, player2, 'First Game')
+        # game = make_random_game(player1, player2, set())
 
         start_time = datetime.datetime.now()
         run_game(game)
@@ -56,22 +59,25 @@ def test_against_bm(model, num_games=100):
         game_turn_lengths.append(game.turn_number)
         game_times.append(end_time - start_time)
 
-    print('Draws: {}'.format(sum(draw_reasons.values())))
-    print('Draw reasons: {}'.format(dict(draw_reasons)))
-    print('Avg game turn length: {}'.format(sum(game_turn_lengths) / len(game_turn_lengths)))
-    print('Avg game time: {}'.format(sum(game_times, datetime.timedelta(0)) / len(game_times)))
-    print()
-
     won_games = num_games - sum(draw_reasons.values())
 
+    info = [
+        'Draws: {} {}'.format(sum(draw_reasons.values()), dict(draw_reasons)),
+        'Avg length:\t{} turns\t{}'.format(sum(game_turn_lengths) / len(game_turn_lengths),
+                                           sum(game_times, datetime.timedelta(0)) / len(game_times)),
+    ]
+
     for player in sorted(wins_for_player):
-        print('{} stats'.format(player))
-        print('\tWins: {} ({:.2f}%)'.format(wins_for_player[player], 100.0 * wins_for_player[player] / won_games))
-        print('\tWin reasons: {}'.format(dict(win_reasons_for_player[player])))
-        print('\tAvg points per game: {}'.format(sum(vp_for_player[player]) / len(vp_for_player[player])))
         for card in cards_for_player[player]:
             cards_for_player[player][card] //= num_games
-        print('\tCards: {}'.format(sorted(cards_for_player[player].items(), key=lambda q: q[0])))
+        info.append('{}:\t{} wins ({:.2f}%)\t{}\t{}\t{}'.format(
+            player, wins_for_player[player], 100.0 * wins_for_player[player] / won_games,
+            dict(win_reasons_for_player[player]), sum(vp_for_player[player]) / len(vp_for_player[player]),
+            sorted(cards_for_player[player].items(), key=lambda q: q[0])))
+    info.append('')
+
+    log_fp.write('\n'.join(info))
+    print('\n'.join(info))
 
 
 def main():
@@ -82,10 +88,10 @@ def main():
         model = build_model()
 
     discount_factor = 1.0
+    epsilon = 0.25
 
     num_games = 0
-    batch_size = 100
-    epsilon_freq = 100
+    batch_size = 1000
 
     test_against_bm(model)
     model.save(path)
@@ -104,15 +110,12 @@ def main():
         for _ in range(batch_size):
             num_games += 1
 
-            epsilons = defaultdict(lambda: 0.25)
-            # for turn_number in range(0, num_games // epsilon_freq):
-            #     epsilons[turn_number] = 0.25
-            # epsilons[num_games // epsilon_freq] = 1 - (num_games % epsilon_freq) / epsilon_freq
-
-            player1 = NNetTrainingPlayer('Player1', model, epsilons=epsilons, use_noise=True)
-            player2 = NNetTrainingPlayer('Player2', model, epsilons=epsilons, use_noise=True)
+            player1 = NNetTrainingPlayer('Player1', model, epsilon=epsilon, use_noise=True)
+            player2 = NNetTrainingPlayer('Player2', model, epsilon=epsilon, use_noise=True)
 
             game = make_premade_game(player1, player2, 'First Game')
+            # game = make_random_game(player1, player2, set())
+
             run_game(game)
             points = game.victory_points_by_player()
             rewards = {
