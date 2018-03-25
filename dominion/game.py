@@ -50,15 +50,12 @@ class PlayerState:
 
 class Game:
     def __init__(self, kingdom_card_constructors):
-        # TODO can this actually be removed?
-        self.kingdom_cards = list(
-            map(lambda constr: constr.__name__, sorted(kingdom_card_constructors, key=lambda constr: constr().cost)))
         self.card_piles_by_name = {}
 
         for constructor in kingdom_card_constructors:
             self.card_piles_by_name[constructor.__name__] = [constructor() for _ in range(8)]
 
-        default_cards = [(estate, 8), (duchy, 8), (province, 8), (curse, 20), (copper, 46), (silver, 40), (gold, 30)]
+        default_cards = [(estate, 14), (duchy, 8), (province, 8), (curse, 20), (copper, 60), (silver, 40), (gold, 30)]
         for constructor, amount in default_cards:
             self.card_piles_by_name[constructor.__name__] = [constructor() for _ in range(amount)]
 
@@ -90,49 +87,6 @@ class Game:
     def player_has_moat(self, player_handle):
         return any(map(lambda card: card.name == 'moat', self.player_state_by_handle[player_handle].hand))
 
-    def complete(self):
-        if not self.is_over():
-            raise ValueError('Game::complete() called when game was not over.')
-
-        game_results = {
-            'turns': self.turn_number,
-            'is_draw': self.is_draw(),
-            'winner': '' if self.is_draw() else self.winner(),
-            'reason': self.finish_reason(),
-        }
-        game_results.update(self.victory_points_by_player())
-
-        for handle in self.player_handles:
-            handle.notify_finished_game(game_results)
-
-    def is_over(self):
-        return self.num_empty_piles() == 3 or len(self.card_piles_by_name['province']) == 0
-
-    def is_draw(self):
-        vp_by_player = self.victory_points_by_player()
-        player1 = list(vp_by_player.keys())[0]
-        return all(map(lambda player: vp_by_player[player] == vp_by_player[player1], vp_by_player))
-
-    def finish_reason(self):
-        if self.num_empty_piles() == 3:
-            return '3 empty piles'
-        else:
-            return 'No more provinces'
-
-    def winner(self):
-        vp_by_player = self.victory_points_by_player()
-        return max(vp_by_player, key=vp_by_player.get)
-
-    def loser(self):
-        vp_by_player = self.victory_points_by_player()
-        return min(vp_by_player, key=vp_by_player.get)
-
-    def victory_points_by_player(self):
-        vp_by_player = {}
-        for handle in self.player_handles:
-            vp_by_player[handle.name] = self.player_state_by_handle[handle].victory_points()
-        return vp_by_player
-
     def start(self):
         random.shuffle(self.player_handles)
 
@@ -140,10 +94,10 @@ class Game:
             handle.notify_started_game()
 
         for handle, state in self.player_state_by_handle.items():
-            # TODO use move_to_discard instead
-            state.discard = [copper(), copper(), copper(), copper(), copper(), copper(), copper(), estate(), estate(),
-                             estate()]
-            self.cleanup_for(handle)
+            for amount, card_name in [(7, 'copper'), (3, 'estate')]:
+                for _ in range(amount):
+                    self.move_to_discard(handle, self.buy(card_name))
+                self.cleanup_for(handle)
 
     def run_next_phase(self):
         if self.current_phase == Phase.ACTION:
@@ -360,3 +314,46 @@ class Game:
         state = self.player_state_by_handle[player_handle]
         while len(state.temp_area) > 0:
             self.move_to_discard(player_handle, state.temp_area.pop())
+
+    def complete(self):
+        if not self.is_over():
+            raise ValueError('Game::complete() called when game was not over.')
+
+        game_results = {
+            'turns': self.turn_number,
+            'is_draw': self.is_draw(),
+            'winner': '' if self.is_draw() else self.winner(),
+            'reason': self.finish_reason(),
+        }
+        game_results.update(self.victory_points_by_player())
+
+        for handle in self.player_handles:
+            handle.notify_finished_game(game_results)
+
+    def is_over(self):
+        return self.num_empty_piles() == 3 or len(self.card_piles_by_name['province']) == 0
+
+    def is_draw(self):
+        vp_by_player = self.victory_points_by_player()
+        player1 = list(vp_by_player.keys())[0]
+        return all(map(lambda player: vp_by_player[player] == vp_by_player[player1], vp_by_player))
+
+    def finish_reason(self):
+        if self.num_empty_piles() == 3:
+            return '3 empty piles'
+        else:
+            return 'No more provinces'
+
+    def winner(self):
+        vp_by_player = self.victory_points_by_player()
+        return max(vp_by_player, key=vp_by_player.get)
+
+    def loser(self):
+        vp_by_player = self.victory_points_by_player()
+        return min(vp_by_player, key=vp_by_player.get)
+
+    def victory_points_by_player(self):
+        vp_by_player = {}
+        for handle in self.player_handles:
+            vp_by_player[handle.name] = self.player_state_by_handle[handle].victory_points()
+        return vp_by_player

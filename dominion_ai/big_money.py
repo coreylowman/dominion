@@ -38,7 +38,7 @@ class SmithyBigMoneyPlayer(BigMoneyPlayer):
             self.play('smithy')
 
     def get_card_to_buy(self):
-        if self.can_buy('smithy') and self.num_of['smithy'] < 2:
+        if self.can_buy('smithy') and self.num_owned('smithy') < 2:
             self.buy('smithy')
         else:
             return super().get_card_to_buy()
@@ -53,7 +53,7 @@ class WitchBigMoneyPlayer(BigMoneyPlayer):
             self.play('witch')
 
     def get_card_to_buy(self):
-        if self.can_buy('witch') and self.num_of['witch'] < 2:
+        if self.can_buy('witch') and self.num_owned('witch') < 2:
             self.buy('witch')
         else:
             return super().get_card_to_buy()

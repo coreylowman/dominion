@@ -135,8 +135,6 @@ class LocalPlayerHandle(PlayerHandle):
         self.hand = {}
         self.cards_in_play_area = defaultdict(int)
         self.cards_in_discard = defaultdict(int)
-        self.cards_in_discard['copper'] = 7
-        self.cards_in_discard['estate'] = 3
         self.cards_in_deck = defaultdict(int)
 
         self.last_card_played = None
@@ -146,18 +144,12 @@ class LocalPlayerHandle(PlayerHandle):
         self.cost_of = {}
         self.is_action = {}
 
-        self.num_of = defaultdict(int)
-        self.num_of['copper'] = 7
-        self.num_of['estate'] = 3
-
         self.choices = []
         self.answers = []
 
     def notify_joined_game(self, supply_piles, card_costs, card_is_action):
         self.total_of = supply_piles.copy()
-        self.total_of['copper'] += 14
-        self.total_of['estate'] += 6
-        self.num_left_of = supply_piles
+        self.num_left_of = supply_piles.copy()
         self.cost_of = card_costs
         self.is_action = card_is_action
 
@@ -239,12 +231,9 @@ class LocalPlayerHandle(PlayerHandle):
 
     def notify_card_bought(self, card):
         self.num_left_of[card] -= 1
-        if self.my_turn:
-            self.num_of[card] += 1
 
     def notify_trashed_card(self, player, card):
-        if self.name == player:
-            self.num_of[card] -= 1
+        pass
 
     def can_play_anything(self):
         return self.actions > 0 and len(self.cards_can_play()) > 0
@@ -265,6 +254,13 @@ class LocalPlayerHandle(PlayerHandle):
         return list(
             filter(lambda card_name: self.num_left_of[card_name] > 0 and self.cost_of[card_name] <= self.coins,
                    self.num_left_of))
+
+    def num_owned(self, card_name):
+        num = 0 if card_name not in self.hand else self.hand[card_name]
+        num += self.cards_in_deck[card_name]
+        num += self.cards_in_discard[card_name]
+        num += self.cards_in_play_area[card_name]
+        return num
 
 
 class ConsolePlayer(LocalPlayerHandle):

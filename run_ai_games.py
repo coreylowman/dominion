@@ -7,7 +7,7 @@ import datetime
 parser = argparse.ArgumentParser()
 parser.add_argument('player1', help='AI to use')
 parser.add_argument('player2', help='AI to use')
-parser.add_argument('num_games', default=1000, type=int, help='number of games to run')
+parser.add_argument('--num_games', default=1000, type=int, help='number of games to run')
 args = parser.parse_args()
 
 ai_for_player = {'Player1': args.player1, 'Player2': args.player2}

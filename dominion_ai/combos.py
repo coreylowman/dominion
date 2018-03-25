@@ -8,7 +8,7 @@ class RemodelBanditPlayer(AIPlayer):
 
     def action_phase(self):
         cards_to_trash = list(filter(lambda card: card == 'copper' or card == 'estate' or card == 'curse', self.hand))
-        if self.num_of['gold'] >= self.num_left_of['province'] / 1.5 and 'gold' in self.hand and self.can_play(
+        if self.num_owned('gold') >= self.num_left_of['province'] / 1.5 and 'gold' in self.hand and self.can_play(
                 'remodel'):
             self._remodel('gold', 'province')
         elif self.can_play('chapel') and len(cards_to_trash) > 2:
@@ -19,7 +19,7 @@ class RemodelBanditPlayer(AIPlayer):
             self._chapel(cards_to_trash)
         elif self.can_play('remodel'):
             if 'witch' not in self.num_left_of and \
-                    'chapel' in self.hand and self.num_of['estate'] == 0 and self.num_of['copper'] == 0:
+                    'chapel' in self.hand and self.num_owned('estate') == 0 and self.num_owned('copper') == 0:
                 self._remodel('chapel', 'silver')
             else:
                 for a, b in [('estate', 'silver'), ('silver', 'duchy'), ('silver', 'bandit')]:
@@ -43,13 +43,13 @@ class RemodelBanditPlayer(AIPlayer):
         if self.turn_number <= 2:
             if self.can_buy('bandit'):
                 self.buy('bandit')
-            elif self.can_buy('chapel') and self.num_of['chapel'] == 0:
+            elif self.can_buy('chapel') and self.num_owned('chapel') == 0:
                 self.buy('chapel')
             elif self.can_buy('silver'):
                 self.buy('silver')
-        elif self.can_buy('bandit') and self.num_of['bandit'] < 1:
+        elif self.can_buy('bandit') and self.num_owned('bandit') < 1:
             self.buy('bandit')
-        elif self.can_buy('remodel') and self.num_of['remodel'] < 1:
+        elif self.can_buy('remodel') and self.num_owned('remodel') < 1:
             self.buy('remodel')
         elif self.can_buy('province'):
             self.buy('province')
@@ -90,7 +90,7 @@ class VassalVillagePlayer(AIPlayer):
         elif self.can_buy('gold'):
             self.buy('gold')
         else:
-            village_priority = self.num_of['village'] < self.num_of['vassal']
+            village_priority = self.num_owned('village') < self.num_owned('vassal')
             if village_priority and self.can_buy('village'):
                 self.buy('village')
             elif self.can_buy('vassal'):
@@ -113,7 +113,7 @@ class WorkshopGardensPlayer(AIPlayer):
 
     def action_phase(self):
         if self.can_play('workshop'):
-            for card in sorted(['workshop', 'gardens', 'estate'], key=lambda card: self.num_of[card]):
+            for card in sorted(['workshop', 'gardens', 'estate'], key=lambda card: self.num_owned(card)):
                 if self.num_left_of[card] > 0:
                     self._workshop(card)
                     break
