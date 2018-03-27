@@ -84,9 +84,6 @@ class Game:
     def opponents_of(self, player_handle):
         return list(filter(lambda other: other != player_handle, self.player_state_by_handle))
 
-    def player_has_moat(self, player_handle):
-        return any(map(lambda card: card.name == 'moat', self.player_state_by_handle[player_handle].hand))
-
     def start(self):
         random.shuffle(self.player_handles)
 
@@ -226,6 +223,9 @@ class Game:
 
     def deck_of(self, player_handle):
         return self.player_state_by_handle[player_handle].deck
+
+    def reactions_of(self, player_handle):
+        return list(filter(lambda card: card.is_reaction(), self.hand_of(player_handle)))
 
     def gain_actions_for(self, player_handle, amount):
         self.player_state_by_handle[player_handle].actions += amount

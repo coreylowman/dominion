@@ -92,10 +92,21 @@ class MakeOpponents(Effect):
     def invoke(self, player_handle, game, arg):
         results = []
         for opponent_handle in game.opponents_of(player_handle):
-            if game.player_has_moat(opponent_handle):
-                results.append(None)
-            else:
+            affects_opponent = True
+            while affects_opponent and len(game.reactions_of(opponent_handle)) > 0 \
+                    and opponent_handle.ask_yes_or_no('React to attack?'):
+                cards = game.reactions_of(opponent_handle)
+                card_names = as_names(cards)
+                chosen_card = opponent_handle.choose_card_from(card_names)
+
+                cancels_attack = cards[card_names.index(chosen_card)].react(opponent_handle, game)
+                if cancels_attack:
+                    affects_opponent = False
+
+            if affects_opponent:
                 results.append(self.effect.invoke(opponent_handle, game, arg))
+            else:
+                results.append(None)
         return results
 
 

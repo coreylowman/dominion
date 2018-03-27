@@ -17,7 +17,8 @@ def chapel():
 
 
 def moat():
-    return make_card(moat.__name__, cost=2, type=CardType.ACTION | CardType.REACTION, effect=Const(2).times(DrawCard()))
+    return make_card(moat.__name__, cost=2, type=CardType.ACTION | CardType.REACTION, effect=Const(2).times(DrawCard()),
+                     reaction=Const(True))
 
 
 def harbinger():

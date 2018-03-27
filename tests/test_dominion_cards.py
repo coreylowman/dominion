@@ -158,6 +158,25 @@ class CardTestCard(TestCase):
         self.assertListEqual(self.player.deck, self._make((2, copper)))
         self.assertListEqual(self.player.hand, self._make((2, copper)))
 
+    def test_moat_reaction(self):
+        self.other_player.hand = self._make((1, copper), (1, silver), (1, gold), (1, curse), (1, moat))
+        self.other_player_handle.answers = [True]
+        self.other_player_handle.choices = ['moat']
+
+        self._play(militia())
+
+        self.assertListEqual(self.other_player.hand,
+                             self._make((1, copper), (1, silver), (1, gold), (1, curse), (1, moat)))
+        self.assertListEqual(self.other_player.discard, [])
+
+        self.other_player_handle.answers = [False]
+        self.other_player_handle.choices = ['silver', 'gold']
+
+        self._play(militia())
+
+        self.assertListEqual(self.other_player.hand, self._make((1, copper), (1, curse), (1, moat)))
+        self.assertListEqual(self.other_player.discard, self._make((1, silver), (1, gold), ))
+
     def test_harbinger(self):
         self.player.discard = self._make((2, copper), (3, silver), (2, gold))
         self.player.deck = self._make((3, curse))
