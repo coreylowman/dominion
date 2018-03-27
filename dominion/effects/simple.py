@@ -41,3 +41,13 @@ class Const(Effect):
 
     def invoke(self, player_handle, game, arg):
         return self.value
+
+
+class NegateAttack(Const):
+    def __init__(self):
+        super().__init__(True)
+
+
+class DontNegateAttack(Const):
+    def __init__(self):
+        super().__init__(False)

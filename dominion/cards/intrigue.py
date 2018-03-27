@@ -22,6 +22,17 @@ def courtyard():
                                     ChooseFrom(CardsInHand()).into(TakeFromHand()).into(MoveToDeck())))
 
 
+def diplomat():
+    return make_card(diplomat.__name__, cost=4, type=CardType.ACTION | CardType.REACTION,
+                     effect=InOrder(Const(2).times(DrawCard()),
+                                    If(Len(CardsInHand()).less_than(Const(6)), GainActions(2))),
+                     can_react=Len(CardsInHand()).greater_than(Const(4)),
+                     reaction=InOrder(Const(2).times(DrawCard()),
+                                      Const(3).times(
+                                          ChooseFrom(CardsInHand()).into(TakeFromHand()).into(MoveToDiscard()))
+                                      ).into(DontNegateAttack()))
+
+
 def duke():
     return make_victory(duke.__name__, cost=5, worth=NumberOf(duchy))
 

@@ -13,13 +13,14 @@ class CardType(Flag):
 
 
 class Card:
-    def __init__(self, name, type, cost, victory_points, effect, reaction):
+    def __init__(self, name, type, cost, victory_points, effect, can_react_effect, reaction_effect):
         self.name = name
         self.cost = cost
         self.victory_points = victory_points
         self.effect = effect
         self.type = type
-        self.reaction = reaction
+        self.can_react_effect = can_react_effect
+        self.reaction_effect = reaction_effect
 
     def is_type(self, card_type):
         return bool(self.type & card_type)
@@ -48,8 +49,11 @@ class Card:
     def handle_cleaned_up(self):
         self.effect.handle_cleaned_up()
 
+    def can_react(self, player_handle, game):
+        return self.can_react_effect.invoke(player_handle, game, None)
+
     def react(self, player_handle, game):
-        return self.reaction.invoke(player_handle, game, None)
+        return self.reaction_effect.invoke(player_handle, game, None)
 
     def __eq__(self, other):
         return self.name == other.name
@@ -61,9 +65,11 @@ class Card:
         return self.name
 
 
-def make_card(name, cost, type, effect, worth=Const(0), reaction=None):
-    return Card(name=name, type=type, cost=cost, victory_points=worth, effect=effect, reaction=reaction)
+def make_card(name, cost, type, effect, worth=Const(0), can_react=None, reaction=None):
+    return Card(name=name, type=type, cost=cost, victory_points=worth, effect=effect, can_react_effect=can_react,
+                reaction_effect=reaction)
 
 
 def make_victory(name, cost, worth, type=CardType.VICTORY):
-    return Card(name=name, type=type, cost=cost, victory_points=worth, effect=Effect(), reaction=None)
+    return Card(name=name, type=type, cost=cost, victory_points=worth, effect=Effect(), can_react_effect=None,
+                reaction_effect=None)
