@@ -13,10 +13,6 @@ def province():
     return make_victory(province.__name__, cost=8, worth=Const(6))
 
 
-def gardens():
-    return make_victory(gardens.__name__, cost=4, worth=LogDeckSize())
-
-
 def curse():
     return make_victory(curse.__name__, cost=0, type=CardType.CURSE, worth=Const(-1))
 
@@ -33,4 +29,4 @@ def gold():
     return make_card(gold.__name__, cost=6, type=CardType.TREASURE, effect=GainCoins(3))
 
 
-BASE_CARDS = [estate, duchy, province, gardens, curse, copper, silver, gold]
+BASE_CARDS = [estate, duchy, province, curse, copper, silver, gold]

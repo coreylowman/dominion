@@ -185,6 +185,10 @@ def artisan():
                                            TakeFromHand()).into(MoveToDeck()))))
 
 
+def gardens():
+    return make_victory(gardens.__name__, cost=4, worth=LogDeckSize())
+
+
 DOMINION_CARDS = [cellar, chapel, moat, harbinger, merchant, vassal, village, workshop, bureaucrat, militia,
                   moneylender, poacher, remodel, smithy, throne_room, bandit, council_room, festival, laboratory,
-                  library, market, mine, sentry, witch, artisan]
+                  library, market, mine, sentry, witch, artisan, gardens]
