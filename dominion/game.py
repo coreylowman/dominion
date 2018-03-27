@@ -153,7 +153,9 @@ class Game:
             self.move_to_discard(player_handle, self.take_from_hand(player_handle, state.hand[0].name))
 
         while len(state.play_area) > 0:
-            self.move_to_discard(player_handle, self.take_from_play_area(player_handle, state.play_area[0].name))
+            card = self.take_from_play_area(player_handle, state.play_area[0].name)
+            card.handle_cleaned_up()
+            self.move_to_discard(player_handle, card)
 
         for i in range(min(5, state.num_cards())):
             self.draw_card_for(player_handle)

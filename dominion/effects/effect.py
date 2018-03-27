@@ -10,11 +10,12 @@ class Effect:
     def handle_card_played(self, player_handle, game, other_card):
         pass
 
+    # callback that is called when the card this effect is attached to is moved to the discard pile
+    def handle_cleaned_up(self):
+        pass
+
     def into(self, next_effect):
         return Into(self, next_effect)
-
-    def when_first_played(self, card_constructor):
-        return WhenFirstPlayed(card_constructor.__name__, self)
 
     def and_(self, other_effect):
         return And(self, other_effect)
@@ -79,6 +80,10 @@ class InOrder(Effect):
         for effect in self.effects:
             effect.handle_card_played(player_handle, game, other_card)
 
+    def handle_cleaned_up(self):
+        for effect in self.effects:
+            effect.handle_cleaned_up()
+
 
 class MakeOpponents(Effect):
     def __init__(self, effect):
@@ -116,8 +121,8 @@ class While(Effect):
 
 
 class WhenFirstPlayed(Effect):
-    def __init__(self, card_name, effect):
-        self.card_name = card_name
+    def __init__(self, card_constructor, effect):
+        self.card_name = card_constructor.__name__
         self.effect = effect
         self.activated = False
 
@@ -125,6 +130,9 @@ class WhenFirstPlayed(Effect):
         if not self.activated and other_card == self.card_name:
             self.effect.invoke(player_handle, game, None)
             self.activated = True
+
+    def handle_cleaned_up(self):
+        self.activated = False
 
 
 class ForEach(Effect):

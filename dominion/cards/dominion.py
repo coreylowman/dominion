@@ -29,7 +29,7 @@ def harbinger():
 
 def merchant():
     return make_card(merchant.__name__, cost=3, type=CardType.ACTION,
-                     effect=InOrder(DrawCard(), GainActions(1), GainCoins(1).when_first_played(silver)))
+                     effect=InOrder(DrawCard(), GainActions(1), WhenFirstPlayed(silver, GainCoins(1))))
 
 
 def vassal():

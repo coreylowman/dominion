@@ -41,6 +41,9 @@ class Card:
     def handle_card_played(self, player_handle, game, card_name):
         self.effect.handle_card_played(player_handle, game, card_name)
 
+    def handle_cleaned_up(self):
+        self.effect.handle_cleaned_up()
+
     def __eq__(self, other):
         return self.name == other.name
 
