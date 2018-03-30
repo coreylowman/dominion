@@ -2,6 +2,7 @@ from abc import abstractmethod
 from collections import defaultdict
 import json
 import inspect
+import time
 
 
 class PlayerHandle:
@@ -440,3 +441,21 @@ class WebsocketPlayer(PlayerHandle):
             response = json.loads(self.websocket.receive())
             if 'type' in response and response['type'] == 'answer_yes_or_no' and 'answer' in response:
                 return response['answer']
+
+
+class LagMixin(PlayerHandle):
+    def buy(self, card_name):
+        super().buy(card_name)
+        time.sleep(1)
+
+    def play(self, card_name):
+        super().play(card_name)
+        time.sleep(1)
+
+    def finish_action_phase(self):
+        super().finish_action_phase()
+        time.sleep(1)
+
+    def finish_turn(self):
+        super().finish_turn()
+        time.sleep(1)

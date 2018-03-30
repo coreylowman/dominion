@@ -1,6 +1,7 @@
-from dominion import AIPlayer, ALL_CARD_NAMES
+from dominion import AIPlayer, ALL_CARD_NAMES, LocalPlayerHandle
 from keras import Model
 from keras.layers import Input, Dense, BatchNormalization
+from keras.models import load_model
 import numpy
 import random
 
@@ -47,15 +48,7 @@ def build_model():
     return model
 
 
-class NNetTrainingPlayer(AIPlayer):
-    def __init__(self, name, model: Model, epsilon, use_noise):
-        super().__init__(name)
-
-        self.model = model
-        self.history = []
-        self.epsilon = epsilon
-        self.use_noise = use_noise
-
+class NNetFeatures_v1(LocalPlayerHandle):
     def get_features(self):
         inputs = [
             self.turn_number,
@@ -68,16 +61,23 @@ class NNetTrainingPlayer(AIPlayer):
             self.coins,
         ]
         for card in ALL_CARD_NAMES:
-            inputs.append(self._pct_in(self.cards_in_deck, card))
-            inputs.append(self._pct_in(self.cards_in_discard, card))
-            inputs.append(self._pct_in(self.hand, card))
-            inputs.append(self._pct_in(self.cards_in_play_area, card))
-            inputs.append(self._pct_in(self.num_left_of, card))
+            inputs.append(self.cards_in_deck.get(card, 0))
+            inputs.append(self.cards_in_discard.get(card, 0))
+            inputs.append(self.hand.get(card, 0))
+            inputs.append(self.cards_in_play_area.get(card, 0))
+            inputs.append(self.num_left_of.get(card, 0))
             inputs.append(int(self.last_card_played is not None and self.last_card_played == card))
         return inputs
 
-    def _pct_in(self, collection, card):
-        return 0 if card not in collection else collection[card]
+
+class NNetTrainingPlayer(AIPlayer, NNetFeatures_v1):
+    def __init__(self, name, model: Model, epsilon, use_noise):
+        super().__init__(name)
+
+        self.model = model
+        self.history = []
+        self.epsilon = epsilon
+        self.use_noise = use_noise
 
     def predict(self):
         features = self.get_features()
@@ -107,6 +107,56 @@ class NNetTrainingPlayer(AIPlayer):
         self.history[-1].append(action)
 
         return action
+
+    def action_phase(self):
+        while self.can_play_anything():
+            actions = self.cards_can_play()
+            actions.append(None)
+
+            action = self.choose_action(actions)
+            if action is None:
+                break
+
+            self.play(action)
+
+    def buy_phase(self):
+        while self.can_buy_anything():
+            actions = self.cards_can_buy()
+            actions.append(None)
+
+            action = self.choose_action(actions)
+            if action is None:
+                break
+
+            self.buy(action)
+
+    def choose_card_from(self, collection):
+        return self.choose_action(collection)
+
+    def ask_yes_or_no(self, prompt):
+        action = self.choose_action(list(ALL_POSSIBLE_ACTIONS))
+        return action is not None
+
+
+class FirstGameNNet(AIPlayer, NNetFeatures_v1):
+    def __init__(self, name):
+        super().__init__(name)
+
+        self.model = load_model('./models/first_game_917000.hd5')
+
+    def predict(self):
+        features = self.get_features()
+        _values, _winning_prob = self.model.predict(numpy.array([features]))
+
+        winning_prob = _winning_prob[0]
+        score_by_action = {}
+        for i, card in enumerate(ALL_POSSIBLE_ACTIONS):
+            score_by_action[card] = _values[0][i]
+        return score_by_action, winning_prob
+
+    def choose_action(self, actions):
+        score_by_action, _ = self.predict()
+        return max(actions, key=score_by_action.get)
 
     def action_phase(self):
         while self.can_play_anything():
