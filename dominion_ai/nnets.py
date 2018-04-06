@@ -1,6 +1,6 @@
 from dominion import AIPlayer, ALL_CARD_NAMES, LocalPlayerHandle
 from keras import Model
-from keras.layers import Input, Dense, BatchNormalization
+from keras.layers import Input, Dense
 from keras.models import load_model
 import numpy
 import random
@@ -71,78 +71,111 @@ class NNetFeatures_v1(LocalPlayerHandle):
 
 
 class NNetTrainingPlayer(AIPlayer, NNetFeatures_v1):
-    def __init__(self, name, model: Model, epsilon, use_noise):
+    def __init__(self, name, model, epsilon):
         super().__init__(name)
 
         self.model = model
         self.history = []
+        self.waiting_for_next_values = []
         self.epsilon = epsilon
-        self.use_noise = use_noise
 
     def predict(self):
         features = self.get_features()
         _values, _winning_prob = self.model.predict(numpy.array([features]))
-        self.history.append([features, _values[0], _winning_prob[0]])
 
-        if self.use_noise:
-            noise = numpy.random.dirichlet([0.03] * len(_values[0]))
-        else:
-            noise = _values[0].copy()
-
+        values = _values[0]
         winning_prob = _winning_prob[0]
+
         score_by_action = {}
         for i, card in enumerate(ALL_POSSIBLE_ACTIONS):
-            score_by_action[card] = 0.75 * _values[0][i] + 0.25 * noise[i]
-        return score_by_action, winning_prob
+            score_by_action[card] = values[i]
 
-    def choose_action(self, actions):
-        score_by_action, _ = self.predict()
+        return score_by_action, features, values, winning_prob
 
+    def _record(self, moment):
+        if len(self.waiting_for_next_values) > 0:
+            for h in self.waiting_for_next_values:
+                h.append(moment[1])
+            self.history.extend(self.waiting_for_next_values)
+            self.waiting_for_next_values.clear()
+
+        self.waiting_for_next_values.append(moment)
+
+    def choose_action(self, actions, score_by_action):
         if random.uniform(0, 1) <= self.epsilon:
-            action = random.choice(actions)
+            return random.choice(actions)
         else:
-            action = max(actions, key=score_by_action.get)
-
-        self.history[-1].append(actions)
-        self.history[-1].append(action)
-
-        return action
+            return max(actions, key=score_by_action.get)
 
     def action_phase(self):
         while self.can_play_anything():
+            score_by_action, features, values, winning_prob = self.predict()
+
             actions = self.cards_can_play()
             actions.append(None)
+            action = self.choose_action(actions, score_by_action)
 
-            action = self.choose_action(actions)
+            if action is not None:
+                reward = self.play(action)
+            else:
+                reward = 0
+
+            self._record([features, values, winning_prob, actions, action, reward])
+
             if action is None:
                 break
-
-            self.play(action)
 
     def buy_phase(self):
         while self.can_buy_anything():
+            score_by_action, features, values, winning_prob = self.predict()
+
             actions = self.cards_can_buy()
             actions.append(None)
+            action = self.choose_action(actions, score_by_action)
 
-            action = self.choose_action(actions)
+            if action is not None:
+                reward = self.buy(action)
+            else:
+                reward = 0
+
+            self._record([features, values, winning_prob, actions, action, reward])
+
             if action is None:
                 break
 
-            self.buy(action)
-
     def choose_card_from(self, collection):
-        return self.choose_action(collection)
+        score_by_action, features, values, winning_prob = self.predict()
+
+        actions = collection
+        action = self.choose_action(actions, score_by_action)
+
+        reward = 0
+
+        self.waiting_for_next_values.append([features, values, winning_prob, actions, action, reward])
+
+        return action
 
     def ask_yes_or_no(self, prompt):
-        action = self.choose_action(list(ALL_POSSIBLE_ACTIONS))
+        score_by_action, features, values, winning_prob = self.predict()
+
+        actions = list(ALL_POSSIBLE_ACTIONS)
+        action = self.choose_action(actions, score_by_action)
+
+        reward = 0
+
+        self.waiting_for_next_values.append([features, values, winning_prob, actions, action, reward])
+
         return action is not None
 
 
-class FirstGameNNet(AIPlayer, NNetFeatures_v1):
+class ModelPlayer(AIPlayer, NNetFeatures_v1):
     def __init__(self, name):
         super().__init__(name)
 
-        self.model = load_model('./models/first_game_917000.hd5')
+        self.model = load_model(self.get_path())
+
+    def get_path(self):
+        return None
 
     def predict(self):
         features = self.get_features()
@@ -186,3 +219,48 @@ class FirstGameNNet(AIPlayer, NNetFeatures_v1):
     def ask_yes_or_no(self, prompt):
         action = self.choose_action(list(ALL_POSSIBLE_ACTIONS))
         return action is not None
+
+
+class FirstGameNNet(ModelPlayer):
+    def get_path(self):
+        return './models/first_game_917000.hd5'
+
+
+class NNetDifficulty1(ModelPlayer):
+    def get_path(self):
+        return './models/all_11_119000.hd5'
+
+
+class NNetDifficulty2(ModelPlayer):
+    def get_path(self):
+        return './models/all_59_188000.hd5'
+
+
+class NNetDifficulty3(ModelPlayer):
+    def get_path(self):
+        return './models/all_107_197000.hd5'
+
+
+class NNetDifficulty4(ModelPlayer):
+    def get_path(self):
+        return './models/all_152_207000.hd5'
+
+
+class NNetDifficulty5(ModelPlayer):
+    def get_path(self):
+        return './models/all_221_213000.hd5'
+
+
+class NNetDifficulty6(ModelPlayer):
+    def get_path(self):
+        return './models/all_265_288000.hd5'
+
+
+class NNetDifficulty7(ModelPlayer):
+    def get_path(self):
+        return './models/all_303_311000.hd5'
+
+
+class NNetDifficulty8(ModelPlayer):
+    def get_path(self):
+        return './models/all_319_345000.hd5'

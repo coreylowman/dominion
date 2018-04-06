@@ -21,24 +21,22 @@ def run_game(game):
         raise
 
 
-best_wins = 0
-
-
-def test_against_bm(model, amount_trained, num_games=400, save_best=True, name='NNet'):
+def test_against_bm(model, amount_trained, best_wins, num_games=400, save_best=True, name='NNet'):
     draw_reasons = defaultdict(int)
     wins_for_player = {name: 0, 'BM': 0}
     vp_for_player = {name: [], 'BM': []}
+    rewards_for_player = {name: [], 'BM': [0]}
     game_turn_lengths = []
     game_times = []
     win_reasons_for_player = {name: defaultdict(int), 'BM': defaultdict(int)}
     cards_for_player = {name: defaultdict(int), 'BM': defaultdict(int)}
 
     for i in range(num_games):
-        player1 = NNetTrainingPlayer(name, model, epsilon=0.0, use_noise=False)
+        player1 = NNetTrainingPlayer(name, model, epsilon=0.0)
         player2 = BigMoneyPlayer('BM')
 
-        # game = make_random_game(player1, player2, set())
-        game = make_premade_game(player1, player2, 'First Game')
+        game = make_random_game(player1, player2, set())
+        # game = make_premade_game(player1, player2, 'First Game')
 
         start_time = datetime.datetime.now()
         run_game(game)
@@ -57,6 +55,7 @@ def test_against_bm(model, amount_trained, num_games=400, save_best=True, name='
         points = game.victory_points_by_player()
         for player in points:
             vp_for_player[player].append(points[player])
+        rewards_for_player[name].append(sum(map(lambda moment: moment[-2], player1.history)))
         game_turn_lengths.append(game.turn_number)
         game_times.append(end_time - start_time)
 
@@ -82,10 +81,11 @@ def test_against_bm(model, amount_trained, num_games=400, save_best=True, name='
 
     print('\n'.join(info))
 
-    global best_wins
     if save_best and wins_for_player[name] > best_wins:
         best_wins = wins_for_player[name]
         model.save('best_{}_{}.hd5'.format(wins_for_player[name], amount_trained))
+
+    return best_wins
 
 
 def main():
@@ -99,9 +99,11 @@ def main():
     epsilon = 0.25
 
     num_completed_games = 0
-    batch_size = 1000
+    best_wins = 0
 
-    test_against_bm(model, num_completed_games)
+    self_play_size = 1000
+
+    best_wins = test_against_bm(model, num_completed_games, best_wins)
     model.save(path)
 
     while True:
@@ -109,61 +111,49 @@ def main():
         target_values = []
         target_probs = []
 
-        avg_values = [0] * len(ALL_POSSIBLE_ACTIONS)
-
-        def collect(vs):
-            for i in range(len(avg_values)):
-                avg_values[i] += vs[i]
-
-        for _ in range(batch_size):
+        for _ in range(self_play_size):
             num_completed_games += 1
 
-            player1 = NNetTrainingPlayer('Player1', model, epsilon=epsilon, use_noise=True)
-            player2 = NNetTrainingPlayer('Player2', model, epsilon=epsilon, use_noise=True)
+            player1 = NNetTrainingPlayer('Player1', model, epsilon=epsilon)
+            player2 = NNetTrainingPlayer('Player2', model, epsilon=epsilon)
 
-            # game = make_random_game(player1, player2, set())
-            game = make_premade_game(player1, player2, 'First Game')
+            game = make_random_game(player1, player2, set())
+            # game = make_premade_game(player1, player2, 'First Game')
 
             run_game(game)
             points = game.victory_points_by_player()
-            rewards = {
-                'Player1': points['Player1'] - game.turn_number,  # - 0.5 * points['Player2']
-                'Player2': points['Player2'] - game.turn_number,  # - 0.5 * points['Player1']
+            is_winner = {
+                'Player1': sign(points['Player1'] - points['Player2']),
+                'Player2': sign(points['Player2'] - points['Player1']),
             }
 
             print('\rGame {}: {} turns, {}: {}\t{}\t{}'.format(num_completed_games, game.turn_number,
-                                                               game.finish_reason(),
-                                                               game.empty_piles(), points, rewards), end='', flush=True)
+                                                               game.finish_reason(), game.empty_piles(), points,
+                                                               len(input_data)), end='', flush=True)
 
-            for history, r in [(player1.history, rewards['Player1']), (player2.history, rewards['Player2'])]:
-                for t, (features, values, winning_prob, actual_choices, chosen_action) in enumerate(history):
+            for history, name in [(player1.history, 'Player1'), (player2.history, 'Player2')]:
+                length_modifier = -game.turn_number / len(history)
+                for t, (features, values, winning_prob, actions, chosen_action, r, next_values) in enumerate(history):
+                    action_values = values.copy()
+
+                    for i, choice in enumerate(ALL_POSSIBLE_ACTIONS):
+                        if choice not in actions:
+                            action_values[i] = 0
+
+                    i = ALL_POSSIBLE_ACTIONS.index(chosen_action)
+                    next_v = 0 if t + 1 == len(history) else max(next_values)
+                    action_values[i] = r + length_modifier + discount_factor * next_v
+
                     input_data.append(features)
-
-                    all_choices = list(ALL_CARD_NAMES)
-                    all_choices.append(None)
-
-                    card_values = values.copy()
-                    collect(values)
-
-                    for i, choice in enumerate(all_choices):
-                        if choice not in actual_choices:
-                            card_values[i] = 0
-
-                    i = all_choices.index(chosen_action)
-                    next_v = 0 if t + 1 == len(history) else max(history[t + 1][1])
-                    card_values[i] = (r + discount_factor * next_v)
-
-                    target_values.append(card_values)
-                    target_probs.append(sign(r))
+                    target_values.append(action_values)
+                    target_probs.append(is_winner[name])
 
         print()
-        print({ALL_POSSIBLE_ACTIONS[i]: avg_values[i] / len(input_data) for i in range(len(ALL_POSSIBLE_ACTIONS))})
-
         model.fit(x=numpy.array(input_data),
                   y=[numpy.array(target_values), numpy.array(target_probs)],
-                  verbose=2)
+                  verbose=2, batch_size=2048, epochs=5)
 
-        test_against_bm(model, num_completed_games)
+        best_wins = test_against_bm(model, num_completed_games, best_wins)
         model.save(path)
 
 
