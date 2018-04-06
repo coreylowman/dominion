@@ -3399,3 +3399,1970 @@ Draws: 18 (4.50%)	{'No more provinces': 18}
 Avg length:	19.93 turns	0:00:00.024421
 BM:	100 wins (25.00%)	{'No more provinces': 100}	33.615	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
 NNet:	282 wins (70.50%)	{'No more provinces': 282}	37.9075	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 08:58:39.158385
+Amount trained: 487000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	19.95 turns	0:00:00.021872
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.0	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	38.5275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('library', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:00:21.250357
+Amount trained: 488000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.15 turns	0:00:00.021932
+BM:	86 wins (21.50%)	{'No more provinces': 86}	33.795	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	295 wins (73.75%)	{'No more provinces': 295}	38.37	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:02:02.508959
+Amount trained: 489000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.055 turns	0:00:00.022375
+BM:	87 wins (21.75%)	{'No more provinces': 87}	33.615	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	38.3975	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:03:45.130216
+Amount trained: 490000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.0675 turns	0:00:00.022364
+BM:	79 wins (19.75%)	{'No more provinces': 79}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	38.8275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:05:29.675376
+Amount trained: 491000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.3 turns	0:00:00.022453
+BM:	70 wins (17.50%)	{'No more provinces': 70}	33.54	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 312}	39.1575	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:07:13.366771
+Amount trained: 492000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.035 turns	0:00:00.022869
+BM:	88 wins (22.00%)	{'No more provinces': 88}	33.54	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	38.255	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:08:55.505841
+Amount trained: 493000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.095 turns	0:00:00.022101
+BM:	100 wins (25.00%)	{'No more provinces': 100}	33.99	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	278 wins (69.50%)	{'No more provinces': 277, '3 empty piles': 1}	38.2475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:10:38.769092
+Amount trained: 494000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.155 turns	0:00:00.022241
+BM:	79 wins (19.75%)	{'No more provinces': 79}	33.795	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 298, '3 empty piles': 1}	38.8275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:12:26.853043
+Amount trained: 495000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.2675 turns	0:00:00.022280
+BM:	73 wins (18.25%)	{'No more provinces': 73}	33.525	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 307, '3 empty piles': 1}	38.7525	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:14:09.103735
+Amount trained: 496000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.1525 turns	0:00:00.023572
+BM:	83 wins (20.75%)	{'No more provinces': 83}	33.57	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	304 wins (76.00%)	{'No more provinces': 304}	38.4225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:15:58.330287
+Amount trained: 497000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	20.0025 turns	0:00:00.023374
+BM:	73 wins (18.25%)	{'No more provinces': 73}	32.805	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	38.7225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:17:50.659015
+Amount trained: 498000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.185 turns	0:00:00.023749
+BM:	87 wins (21.75%)	{'No more provinces': 86, '3 empty piles': 1}	33.78	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	297 wins (74.25%)	{'No more provinces': 297}	39.0475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('laboratory', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:19:43.860669
+Amount trained: 499000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.1825 turns	0:00:00.023959
+BM:	102 wins (25.50%)	{'No more provinces': 102}	34.14	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	281 wins (70.25%)	{'No more provinces': 281}	38.6525	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:21:38.720565
+Amount trained: 500000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.0675 turns	0:00:00.024001
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.48	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	38.97	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 09:23:33.469221
+Amount trained: 501000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.0425 turns	0:00:00.023384
+BM:	76 wins (19.00%)	{'No more provinces': 76}	33.3	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	38.9025	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:25:23.602820
+Amount trained: 502000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.1225 turns	0:00:00.023758
+BM:	72 wins (18.00%)	{'No more provinces': 72}	33.465	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	39.105	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:27:08.923145
+Amount trained: 503000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.16 turns	0:00:00.023577
+BM:	78 wins (19.50%)	{'No more provinces': 76, '3 empty piles': 2}	33.585	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 306}	39.02	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:29:01.009962
+Amount trained: 504000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.3 turns	0:00:00.023985
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.84	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 307, '3 empty piles': 1}	39.5425	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:30:57.085141
+Amount trained: 505000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.36 turns	0:00:00.024301
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	34.155	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	39.3275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:32:49.458627
+Amount trained: 506000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.175 turns	0:00:00.023730
+BM:	95 wins (23.75%)	{'No more provinces': 95}	34.065	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	293 wins (73.25%)	{'No more provinces': 292, '3 empty piles': 1}	39.0025	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 09:34:41.974315
+Amount trained: 507000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.17 turns	0:00:00.023259
+BM:	67 wins (16.75%)	{'No more provinces': 67}	33.33	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 321}	39.415	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 09:36:33.311885
+Amount trained: 508000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.0825 turns	0:00:00.024387
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.585	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 306}	38.84	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 09:38:27.010081
+Amount trained: 509000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.145 turns	0:00:00.024190
+BM:	67 wins (16.75%)	{'No more provinces': 67}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	39.02	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 09:40:18.246651
+Amount trained: 510000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	19.905 turns	0:00:00.023950
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.18	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	38.61	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 09:42:06.823224
+Amount trained: 511000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.0425 turns	0:00:00.024510
+BM:	75 wins (18.75%)	{'No more provinces': 74, '3 empty piles': 1}	33.06	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	38.8625	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 09:43:58.089120
+Amount trained: 512000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.0 turns	0:00:00.024372
+BM:	64 wins (16.00%)	{'No more provinces': 64}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	38.7375	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:45:46.258368
+Amount trained: 513000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.9925 turns	0:00:00.025569
+BM:	96 wins (24.00%)	{'No more provinces': 96}	33.36	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	283 wins (70.75%)	{'No more provinces': 283}	38.3275	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:47:35.848751
+Amount trained: 514000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	19.9975 turns	0:00:00.023513
+BM:	71 wins (17.75%)	{'No more provinces': 71}	32.865	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	315 wins (78.75%)	{'No more provinces': 315}	39.32	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:49:27.994019
+Amount trained: 515000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	19.925 turns	0:00:00.023855
+BM:	72 wins (18.00%)	{'No more provinces': 72}	32.85	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 312}	38.865	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:51:18.770064
+Amount trained: 516000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.1325 turns	0:00:00.024366
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.525	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	38.875	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:53:10.833452
+Amount trained: 517000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.075 turns	0:00:00.024623
+BM:	68 wins (17.00%)	{'No more provinces': 68}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 321}	39.0725	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 09:55:03.767708
+Amount trained: 518000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.2725 turns	0:00:00.025075
+BM:	84 wins (21.00%)	{'No more provinces': 83, '3 empty piles': 1}	33.765	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	39.0375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 09:56:56.584590
+Amount trained: 519000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	20.1275 turns	0:00:00.024500
+BM:	76 wins (19.00%)	{'No more provinces': 76}	33.51	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	38.99	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 09:58:49.967527
+Amount trained: 520000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.2925 turns	0:00:00.023382
+BM:	86 wins (21.50%)	{'No more provinces': 86}	33.72	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	291 wins (72.75%)	{'No more provinces': 291}	39.3125	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:00:43.558562
+Amount trained: 521000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.46 turns	0:00:00.024160
+BM:	77 wins (19.25%)	{'No more provinces': 77}	34.23	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	303 wins (75.75%)	{'No more provinces': 303}	39.7375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:02:37.262704
+Amount trained: 522000 games
+Draws: 26 (6.50%)	{'No more provinces': 26}
+Avg length:	20.11 turns	0:00:00.023631
+BM:	73 wins (18.25%)	{'No more provinces': 73}	33.195	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	301 wins (75.25%)	{'No more provinces': 301}	39.015	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:04:28.629952
+Amount trained: 523000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.1525 turns	0:00:00.022125
+BM:	92 wins (23.00%)	{'No more provinces': 92}	33.855	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	291 wins (72.75%)	{'No more provinces': 291}	38.875	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:06:20.341798
+Amount trained: 524000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.3825 turns	0:00:00.024211
+BM:	94 wins (23.50%)	{'No more provinces': 94}	34.455	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	286 wins (71.50%)	{'No more provinces': 286}	39.5575	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:08:14.080484
+Amount trained: 525000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.205 turns	0:00:00.023964
+BM:	78 wins (19.50%)	{'No more provinces': 78}	34.035	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	38.885	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:10:09.037183
+Amount trained: 526000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.16 turns	0:00:00.023811
+BM:	89 wins (22.25%)	{'No more provinces': 89}	33.57	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 299, '3 empty piles': 1}	39.13	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:12:05.869518
+Amount trained: 527000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.825 turns	0:00:00.023579
+BM:	71 wins (17.75%)	{'No more provinces': 71}	32.82	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	38.4225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:14:00.812233
+Amount trained: 528000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.1575 turns	0:00:00.023594
+BM:	93 wins (23.25%)	{'No more provinces': 93}	33.465	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	285 wins (71.25%)	{'No more provinces': 284, '3 empty piles': 1}	38.3825	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:15:51.582433
+Amount trained: 529000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.05 turns	0:00:00.023278
+BM:	88 wins (22.00%)	{'No more provinces': 88}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	38.6825	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:17:42.338879
+Amount trained: 530000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.2525 turns	0:00:00.023727
+BM:	80 wins (20.00%)	{'No more provinces': 79, '3 empty piles': 1}	33.66	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 300}	38.8475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:19:35.615927
+Amount trained: 531000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.325 turns	0:00:00.023803
+BM:	97 wins (24.25%)	{'No more provinces': 97}	33.72	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	289 wins (72.25%)	{'No more provinces': 289}	39.1075	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:21:30.790605
+Amount trained: 532000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.18 turns	0:00:00.023933
+BM:	84 wins (21.00%)	{'No more provinces': 83, '3 empty piles': 1}	33.765	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	297 wins (74.25%)	{'No more provinces': 297}	38.5825	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:23:21.100491
+Amount trained: 533000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.09 turns	0:00:00.023285
+BM:	80 wins (20.00%)	{'No more provinces': 80}	33.48	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 307, '3 empty piles': 1}	38.5125	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 10:25:13.468237
+Amount trained: 534000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	20.2675 turns	0:00:00.023438
+BM:	85 wins (21.25%)	{'No more provinces': 85}	33.75	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	291 wins (72.75%)	{'No more provinces': 290, '3 empty piles': 1}	38.525	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:26:59.185800
+Amount trained: 535000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	20.2875 turns	0:00:00.025037
+BM:	88 wins (22.00%)	{'No more provinces': 88}	33.72	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	287 wins (71.75%)	{'No more provinces': 287}	38.65	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:28:54.550684
+Amount trained: 536000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.045 turns	0:00:00.024344
+BM:	91 wins (22.75%)	{'No more provinces': 91}	33.27	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	286 wins (71.50%)	{'No more provinces': 286}	38.475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:30:47.372668
+Amount trained: 537000 games
+Draws: 30 (7.50%)	{'No more provinces': 30}
+Avg length:	20.03 turns	0:00:00.023497
+BM:	84 wins (21.00%)	{'No more provinces': 84}	32.955	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	286 wins (71.50%)	{'No more provinces': 286}	38.375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 10:32:41.061434
+Amount trained: 538000 games
+Draws: 26 (6.50%)	{'No more provinces': 26}
+Avg length:	20.1575 turns	0:00:00.023907
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.69	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	38.9075	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:34:33.609455
+Amount trained: 539000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.285 turns	0:00:00.023858
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.795	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	39.145	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:36:20.367060
+Amount trained: 540000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.3175 turns	0:00:00.023813
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	33.735	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	304 wins (76.00%)	{'No more provinces': 303, '3 empty piles': 1}	38.9875	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('mine', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:38:12.896817
+Amount trained: 541000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.3 turns	0:00:00.024088
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.84	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	302 wins (75.50%)	{'No more provinces': 301, '3 empty piles': 1}	39.1325	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:40:05.621579
+Amount trained: 542000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.0425 turns	0:00:00.023779
+BM:	68 wins (17.00%)	{'No more provinces': 68}	32.97	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 310}	38.795	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 10:41:58.659590
+Amount trained: 543000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.9675 turns	0:00:00.023642
+BM:	75 wins (18.75%)	{'No more provinces': 75}	32.85	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	304 wins (76.00%)	{'No more provinces': 304}	38.195	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:43:49.107878
+Amount trained: 544000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	20.055 turns	0:00:00.024075
+BM:	82 wins (20.50%)	{'No more provinces': 82}	33.39	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	293 wins (73.25%)	{'No more provinces': 293}	38.44	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:45:42.161157
+Amount trained: 545000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.14 turns	0:00:00.024284
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.255	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 309}	38.8925	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:47:30.720410
+Amount trained: 546000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	19.7725 turns	0:00:00.023613
+BM:	88 wins (22.00%)	{'No more provinces': 88}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	287 wins (71.75%)	{'No more provinces': 287}	38.2675	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 10:49:26.455845
+Amount trained: 547000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.3475 turns	0:00:00.024581
+BM:	89 wins (22.25%)	{'No more provinces': 88, '3 empty piles': 1}	33.99	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	39.2725	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 10:51:26.195909
+Amount trained: 548000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	20.0225 turns	0:00:00.026255
+BM:	87 wins (21.75%)	{'No more provinces': 87}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	289 wins (72.25%)	{'No more provinces': 288, '3 empty piles': 1}	38.665	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 10:53:23.397202
+Amount trained: 549000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.495 turns	0:00:00.023255
+BM:	71 wins (17.75%)	{'No more provinces': 70, '3 empty piles': 1}	31.905	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 312}	38.15	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 10:55:20.464624
+Amount trained: 550000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.5575 turns	0:00:00.023334
+BM:	83 wins (20.75%)	{'No more provinces': 83}	32.085	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 300}	37.79	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0)]
+
+2018-04-06 10:57:12.239148
+Amount trained: 551000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.5575 turns	0:00:00.022646
+BM:	78 wins (19.50%)	{'No more provinces': 78}	32.025	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	37.7775	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 10:59:01.624845
+Amount trained: 552000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	19.6825 turns	0:00:00.022927
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	32.31	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	303 wins (75.75%)	{'No more provinces': 303}	38.0375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:00:50.266544
+Amount trained: 553000 games
+Draws: 27 (6.75%)	{'No more provinces': 27}
+Avg length:	19.755 turns	0:00:00.023439
+BM:	71 wins (17.75%)	{'No more provinces': 70, '3 empty piles': 1}	32.745	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 301, '3 empty piles': 1}	37.945	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 11:02:41.012779
+Amount trained: 554000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.9475 turns	0:00:00.024068
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.82	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	38.7275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 11:04:31.867774
+Amount trained: 555000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	19.9025 turns	0:00:00.023074
+BM:	87 wins (21.75%)	{'No more provinces': 87}	32.805	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	38.2	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 11:06:22.687026
+Amount trained: 556000 games
+Draws: 27 (6.75%)	{'No more provinces': 27}
+Avg length:	19.8775 turns	0:00:00.023812
+BM:	66 wins (16.50%)	{'No more provinces': 66}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	38.275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0)]
+
+2018-04-06 11:08:13.619945
+Amount trained: 557000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.87 turns	0:00:00.023310
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.43	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 306, '3 empty piles': 1}	38.465	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:10:06.162027
+Amount trained: 558000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.77 turns	0:00:00.023088
+BM:	75 wins (18.75%)	{'No more provinces': 75}	32.73	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	301 wins (75.25%)	{'No more provinces': 301}	37.6625	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:11:55.513217
+Amount trained: 559000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	19.6475 turns	0:00:00.023100
+BM:	82 wins (20.50%)	{'No more provinces': 82}	32.19	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	37.8175	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('vassal', 0)]
+
+2018-04-06 11:13:47.580640
+Amount trained: 560000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	19.735 turns	0:00:00.023872
+BM:	87 wins (21.75%)	{'No more provinces': 87}	32.715	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	288 wins (72.00%)	{'No more provinces': 288}	38.095	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:15:44.762623
+Amount trained: 561000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	19.8375 turns	0:00:00.024320
+BM:	74 wins (18.50%)	{'No more provinces': 74}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 306}	38.125	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:17:40.638483
+Amount trained: 562000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.9 turns	0:00:00.024095
+BM:	88 wins (22.00%)	{'No more provinces': 88}	32.955	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	288 wins (72.00%)	{'No more provinces': 286, '3 empty piles': 2}	38.2225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:19:35.463270
+Amount trained: 563000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.0725 turns	0:00:00.024363
+BM:	97 wins (24.25%)	{'No more provinces': 97}	33.63	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	280 wins (70.00%)	{'No more provinces': 280}	38.48	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 11:21:30.143550
+Amount trained: 564000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.0125 turns	0:00:00.024158
+BM:	77 wins (19.25%)	{'No more provinces': 77}	33.015	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 310}	38.9675	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:23:22.992747
+Amount trained: 565000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	19.9975 turns	0:00:00.023874
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.255	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	297 wins (74.25%)	{'No more provinces': 297}	38.5075	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:25:16.634351
+Amount trained: 566000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.755 turns	0:00:00.023694
+BM:	87 wins (21.75%)	{'No more provinces': 87}	32.655	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	37.95	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 11:27:04.262066
+Amount trained: 567000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.0075 turns	0:00:00.023866
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	38.805	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:28:59.100831
+Amount trained: 568000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	20.245 turns	0:00:00.024250
+BM:	76 wins (19.00%)	{'No more provinces': 76}	33.765	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 300}	38.84	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:30:51.742667
+Amount trained: 569000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.1575 turns	0:00:00.024078
+BM:	76 wins (19.00%)	{'No more provinces': 76}	33.54	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	39.11	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:32:45.916051
+Amount trained: 570000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.0125 turns	0:00:00.023692
+BM:	90 wins (22.50%)	{'No more provinces': 89, '3 empty piles': 1}	33.645	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	38.605	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:34:40.925227
+Amount trained: 571000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.37 turns	0:00:00.024221
+BM:	66 wins (16.50%)	{'No more provinces': 66}	33.6	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	312 wins (78.00%)	{'No more provinces': 310, '3 empty piles': 2}	39.7325	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 11:36:34.185970
+Amount trained: 572000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.295 turns	0:00:00.023958
+BM:	68 wins (17.00%)	{'No more provinces': 68}	33.765	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	315 wins (78.75%)	{'No more provinces': 314, '3 empty piles': 1}	39.59	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 11:38:29.860662
+Amount trained: 573000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.19 turns	0:00:00.023534
+BM:	69 wins (17.25%)	{'No more provinces': 68, '3 empty piles': 1}	33.315	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	39.7225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:40:22.985525
+Amount trained: 574000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.1775 turns	0:00:00.023929
+BM:	71 wins (17.75%)	{'No more provinces': 71}	33.795	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	39.4725	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:42:13.841184
+Amount trained: 575000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.39 turns	0:00:00.024201
+BM:	63 wins (15.75%)	{'No more provinces': 63}	33.825	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	318 wins (79.50%)	{'No more provinces': 318}	39.81	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:44:10.972303
+Amount trained: 576000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.205 turns	0:00:00.024349
+BM:	83 wins (20.75%)	{'No more provinces': 82, '3 empty piles': 1}	33.9	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	39.5475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 11:46:07.259747
+Amount trained: 577000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.225 turns	0:00:00.025566
+BM:	85 wins (21.25%)	{'No more provinces': 83, '3 empty piles': 2}	33.63	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	39.2425	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('village', 0)]
+
+2018-04-06 11:48:02.269153
+Amount trained: 578000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.8125 turns	0:00:00.024568
+BM:	73 wins (18.25%)	{'No more provinces': 73}	32.595	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	38.655	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:49:52.882317
+Amount trained: 579000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.5225 turns	0:00:00.023620
+BM:	80 wins (20.00%)	{'No more provinces': 80}	32.16	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	37.7375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:51:36.945759
+Amount trained: 580000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	19.635 turns	0:00:00.023916
+BM:	86 wins (21.50%)	{'No more provinces': 86}	32.235	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	37.665	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('remodel', 0), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:53:25.086527
+Amount trained: 581000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.555 turns	0:00:00.023668
+BM:	86 wins (21.50%)	{'No more provinces': 86}	32.565	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	292 wins (73.00%)	{'No more provinces': 292}	37.25	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 11:55:15.318489
+Amount trained: 582000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.9025 turns	0:00:00.024285
+BM:	80 wins (20.00%)	{'No more provinces': 80}	33.06	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 298, '3 empty piles': 1}	38.1575	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:57:07.544689
+Amount trained: 583000 games
+Draws: 28 (7.00%)	{'No more provinces': 28}
+Avg length:	20.1475 turns	0:00:00.025126
+BM:	79 wins (19.75%)	{'No more provinces': 79}	33.48	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	293 wins (73.25%)	{'No more provinces': 292, '3 empty piles': 1}	38.83	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 11:59:03.777152
+Amount trained: 584000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	19.785 turns	0:00:00.024691
+BM:	90 wins (22.50%)	{'No more provinces': 90}	32.475	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	37.9925	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:00:55.476983
+Amount trained: 585000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.865 turns	0:00:00.024775
+BM:	72 wins (18.00%)	{'No more provinces': 72}	32.55	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	38.125	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:02:47.306645
+Amount trained: 586000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	19.4875 turns	0:00:00.025378
+BM:	82 wins (20.50%)	{'No more provinces': 81, '3 empty piles': 1}	32.055	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 306}	37.5425	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:04:45.177433
+Amount trained: 587000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.67 turns	0:00:00.024971
+BM:	93 wins (23.25%)	{'No more provinces': 93}	32.55	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	286 wins (71.50%)	{'No more provinces': 286}	37.765	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:06:42.528208
+Amount trained: 588000 games
+Draws: 28 (7.00%)	{'No more provinces': 28}
+Avg length:	19.9475 turns	0:00:00.024267
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.39	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	291 wins (72.75%)	{'No more provinces': 291}	38.4375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 12:08:35.869072
+Amount trained: 589000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.85 turns	0:00:00.023552
+BM:	76 wins (19.00%)	{'No more provinces': 76}	32.82	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	38.565	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 12:10:25.792745
+Amount trained: 590000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.175 turns	0:00:00.023818
+BM:	86 wins (21.50%)	{'No more provinces': 86}	33.39	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	297 wins (74.25%)	{'No more provinces': 297}	38.6625	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:12:14.812242
+Amount trained: 591000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	19.8075 turns	0:00:00.023474
+BM:	80 wins (20.00%)	{'No more provinces': 80}	33.24	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	295 wins (73.75%)	{'No more provinces': 295}	38.31	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:14:07.360419
+Amount trained: 592000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.3825 turns	0:00:00.024648
+BM:	80 wins (20.00%)	{'No more provinces': 79, '3 empty piles': 1}	33.945	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	305 wins (76.25%)	{'No more provinces': 304, '3 empty piles': 1}	39.3725	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:16:05.271188
+Amount trained: 593000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.4125 turns	0:00:00.025247
+BM:	88 wins (22.00%)	{'No more provinces': 88}	34.02	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	38.9875	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 0), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:18:00.698744
+Amount trained: 594000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.38 turns	0:00:00.025753
+BM:	91 wins (22.75%)	{'No more provinces': 90, '3 empty piles': 1}	33.96	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	295 wins (73.75%)	{'No more provinces': 294, '3 empty piles': 1}	39.2125	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:19:57.722773
+Amount trained: 595000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.12 turns	0:00:00.024545
+BM:	72 wins (18.00%)	{'No more provinces': 72}	33.24	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 308, '3 empty piles': 1}	39.21	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:21:56.547048
+Amount trained: 596000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.265 turns	0:00:00.025141
+BM:	92 wins (23.00%)	{'No more provinces': 92}	33.615	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	294 wins (73.50%)	{'No more provinces': 293, '3 empty piles': 1}	38.9475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:23:54.868575
+Amount trained: 597000 games
+Draws: 28 (7.00%)	{'No more provinces': 28}
+Avg length:	20.09 turns	0:00:00.024574
+BM:	74 wins (18.50%)	{'No more provinces': 74}	33.225	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	38.9975	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:25:51.619347
+Amount trained: 598000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.01 turns	0:00:00.023906
+BM:	77 wins (19.25%)	{'No more provinces': 76, '3 empty piles': 1}	33.165	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	39.01	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 12:27:41.653668
+Amount trained: 599000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.3375 turns	0:00:00.024267
+BM:	70 wins (17.50%)	{'No more provinces': 70}	33.435	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	310 wins (77.50%)	{'No more provinces': 309, '3 empty piles': 1}	39.755	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:29:35.610894
+Amount trained: 600000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.2375 turns	0:00:00.024763
+BM:	74 wins (18.50%)	{'No more provinces': 74}	33.645	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	39.5675	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:31:30.024260
+Amount trained: 601000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.145 turns	0:00:00.023785
+BM:	80 wins (20.00%)	{'No more provinces': 79, '3 empty piles': 1}	33.3	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	39.345	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:33:19.875690
+Amount trained: 602000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.235 turns	0:00:00.023760
+BM:	78 wins (19.50%)	{'No more provinces': 76, '3 empty piles': 2}	33.735	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 309, '3 empty piles': 1}	39.6775	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 12:35:14.467470
+Amount trained: 603000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	19.9025 turns	0:00:00.023267
+BM:	74 wins (18.50%)	{'No more provinces': 73, '3 empty piles': 1}	32.73	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 311}	38.695	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 0), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:37:06.886583
+Amount trained: 604000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.91 turns	0:00:00.023590
+BM:	82 wins (20.50%)	{'No more provinces': 81, '3 empty piles': 1}	33.015	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 8)]
+NNet:	294 wins (73.50%)	{'No more provinces': 294}	38.48	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:38:57.401918
+Amount trained: 605000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	19.8175 turns	0:00:00.023170
+BM:	77 wins (19.25%)	{'No more provinces': 76, '3 empty piles': 1}	32.73	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 8)]
+NNet:	309 wins (77.25%)	{'No more provinces': 309}	38.8075	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:40:50.366019
+Amount trained: 606000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	19.8125 turns	0:00:00.023814
+BM:	86 wins (21.50%)	{'No more provinces': 84, '3 empty piles': 2}	32.835	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	38.3175	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:42:35.864491
+Amount trained: 607000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	19.9825 turns	0:00:00.023891
+BM:	72 wins (18.00%)	{'No more provinces': 72}	32.775	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	39.155	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:44:27.920970
+Amount trained: 608000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.1775 turns	0:00:00.023789
+BM:	67 wins (16.75%)	{'No more provinces': 66, '3 empty piles': 1}	32.715	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	39.4475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:46:19.649260
+Amount trained: 609000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.045 turns	0:00:00.023556
+BM:	67 wins (16.75%)	{'No more provinces': 67}	33.03	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 8)]
+NNet:	317 wins (79.25%)	{'No more provinces': 317}	39.6375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:48:04.936829
+Amount trained: 610000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.06 turns	0:00:00.023405
+BM:	65 wins (16.25%)	{'No more provinces': 64, '3 empty piles': 1}	32.925	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 317}	39.37	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:49:54.672635
+Amount trained: 611000 games
+Draws: 8 (2.00%)	{'No more provinces': 8}
+Avg length:	20.015 turns	0:00:00.023886
+BM:	73 wins (18.25%)	{'No more provinces': 73}	32.685	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 8)]
+NNet:	319 wins (79.75%)	{'No more provinces': 319}	39.4725	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('militia', 0), ('moat', 0), ('moneylender', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 12:51:46.504895
+Amount trained: 612000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.04 turns	0:00:00.023974
+BM:	70 wins (17.50%)	{'No more provinces': 69, '3 empty piles': 1}	32.76	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 8)]
+NNet:	312 wins (78.00%)	{'No more provinces': 312}	39.375	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('moneylender', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 12:53:35.831238
+Amount trained: 613000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.035 turns	0:00:00.023985
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	32.97	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 302}	39.2325	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 12:55:28.602809
+Amount trained: 614000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.935 turns	0:00:00.023196
+BM:	81 wins (20.25%)	{'No more provinces': 81}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 301, '3 empty piles': 1}	38.9375	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 12:57:20.638278
+Amount trained: 615000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.1575 turns	0:00:00.024079
+BM:	78 wins (19.50%)	{'No more provinces': 76, '3 empty piles': 2}	33.225	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	39.605	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 12:59:12.541086
+Amount trained: 616000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.2075 turns	0:00:00.024204
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.51	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	39.295	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:01:00.821504
+Amount trained: 617000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.055 turns	0:00:00.023423
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.925	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	39.3025	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('militia', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:02:49.669699
+Amount trained: 618000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	19.89 turns	0:00:00.023243
+BM:	63 wins (15.75%)	{'No more provinces': 62, '3 empty piles': 1}	32.715	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	324 wins (81.00%)	{'No more provinces': 324}	39.475	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 13:04:38.168691
+Amount trained: 619000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.045 turns	0:00:00.023348
+BM:	66 wins (16.50%)	{'No more provinces': 65, '3 empty piles': 1}	32.865	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 312, '3 empty piles': 1}	39.3	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 13:06:26.855055
+Amount trained: 620000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.0525 turns	0:00:00.024728
+BM:	62 wins (15.50%)	{'No more provinces': 62}	32.4	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	320 wins (80.00%)	{'No more provinces': 320}	39.4675	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 13:08:18.955055
+Amount trained: 621000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	19.9325 turns	0:00:00.024003
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.685	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 311}	39.1725	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 13:10:09.820963
+Amount trained: 622000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.94 turns	0:00:00.024102
+BM:	71 wins (17.75%)	{'No more provinces': 70, '3 empty piles': 1}	32.64	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 306}	39.09	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 13:11:58.508141
+Amount trained: 623000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.9025 turns	0:00:00.024276
+BM:	79 wins (19.75%)	{'No more provinces': 78, '3 empty piles': 1}	32.58	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	297 wins (74.25%)	{'No more provinces': 297}	38.89	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 13:13:54.833300
+Amount trained: 624000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.1725 turns	0:00:00.024861
+BM:	74 wins (18.50%)	{'No more provinces': 74}	33.225	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	39.4525	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 13:15:51.179390
+Amount trained: 625000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.015 turns	0:00:00.024546
+BM:	69 wins (17.25%)	{'No more provinces': 69}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	38.9975	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 13:17:46.329360
+Amount trained: 626000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.8125 turns	0:00:00.023844
+BM:	80 wins (20.00%)	{'No more provinces': 79, '3 empty piles': 1}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	303 wins (75.75%)	{'No more provinces': 302, '3 empty piles': 1}	38.97	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:19:42.537519
+Amount trained: 627000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.15 turns	0:00:00.024733
+BM:	82 wins (20.50%)	{'No more provinces': 82}	33.495	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	303 wins (75.75%)	{'No more provinces': 303}	39.305	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 13:21:40.050664
+Amount trained: 628000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.985 turns	0:00:00.023671
+BM:	82 wins (20.50%)	{'No more provinces': 82}	33.06	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	301 wins (75.25%)	{'No more provinces': 301}	38.9275	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:23:28.760273
+Amount trained: 629000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.0925 turns	0:00:00.023945
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.865	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 311}	39.475	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:25:22.556961
+Amount trained: 630000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.1075 turns	0:00:00.023982
+BM:	73 wins (18.25%)	{'No more provinces': 72, '3 empty piles': 1}	33.24	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 306, '3 empty piles': 1}	39.445	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:27:16.045399
+Amount trained: 631000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.1825 turns	0:00:00.024223
+BM:	79 wins (19.75%)	{'No more provinces': 78, '3 empty piles': 1}	33.33	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 309}	39.3625	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('vassal', 0)]
+
+2018-04-06 13:29:11.391438
+Amount trained: 632000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.0075 turns	0:00:00.024393
+BM:	85 wins (21.25%)	{'No more provinces': 85}	33.06	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	38.945	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:31:05.648004
+Amount trained: 633000 games
+Draws: 26 (6.50%)	{'No more provinces': 26}
+Avg length:	19.92 turns	0:00:00.023862
+BM:	64 wins (16.00%)	{'No more provinces': 63, '3 empty piles': 1}	32.58	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 8)]
+NNet:	310 wins (77.50%)	{'No more provinces': 310}	39.1925	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('laboratory', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:32:57.689859
+Amount trained: 634000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.1675 turns	0:00:00.024180
+BM:	76 wins (19.00%)	{'No more provinces': 76}	33.15	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	301 wins (75.25%)	{'No more provinces': 299, '3 empty piles': 2}	39.7675	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:34:49.157725
+Amount trained: 635000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	19.945 turns	0:00:00.024833
+BM:	69 wins (17.25%)	{'No more provinces': 69}	32.97	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	318 wins (79.50%)	{'No more provinces': 318}	39.41	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:36:40.837519
+Amount trained: 636000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.7775 turns	0:00:00.024061
+BM:	78 wins (19.50%)	{'No more provinces': 78}	32.79	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	38.64	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 13:38:35.180218
+Amount trained: 637000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.005 turns	0:00:00.024588
+BM:	70 wins (17.50%)	{'No more provinces': 68, '3 empty piles': 2}	33.045	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	39.4875	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:40:27.271819
+Amount trained: 638000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.7275 turns	0:00:00.023735
+BM:	67 wins (16.75%)	{'No more provinces': 67}	32.355	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	38.5025	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 13:42:12.910414
+Amount trained: 639000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	19.7275 turns	0:00:00.023415
+BM:	75 wins (18.75%)	{'3 empty piles': 2, 'No more provinces': 73}	32.67	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 304, '3 empty piles': 1}	38.5225	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:44:08.126335
+Amount trained: 640000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.995 turns	0:00:00.028764
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.865	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	39.3975	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 13:45:56.763587
+Amount trained: 641000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	19.6025 turns	0:00:00.024594
+BM:	73 wins (18.25%)	{'No more provinces': 73}	32.565	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	38.58	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:47:45.040494
+Amount trained: 642000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	19.585 turns	0:00:00.023684
+BM:	79 wins (19.75%)	{'No more provinces': 79}	32.25	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	38.2425	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 13:49:32.851099
+Amount trained: 643000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.43 turns	0:00:00.024068
+BM:	66 wins (16.50%)	{'No more provinces': 66}	31.47	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	38.2775	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('workshop', 0)]
+
+2018-04-06 13:51:23.914782
+Amount trained: 644000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.68 turns	0:00:00.024376
+BM:	82 wins (20.50%)	{'No more provinces': 82}	32.445	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	296 wins (74.00%)	{'No more provinces': 296}	38.1925	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:53:12.837639
+Amount trained: 645000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	19.59 turns	0:00:00.023885
+BM:	61 wins (15.25%)	{'No more provinces': 61}	32.07	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	318 wins (79.50%)	{'No more provinces': 318}	38.755	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:55:06.479364
+Amount trained: 646000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	19.72 turns	0:00:00.023938
+BM:	86 wins (21.50%)	{'No more provinces': 86}	32.445	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	302 wins (75.50%)	{'No more provinces': 301, '3 empty piles': 1}	38.465	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 13:56:56.108227
+Amount trained: 647000 games
+Draws: 24 (6.00%)	{'No more provinces': 24}
+Avg length:	19.8525 turns	0:00:00.023969
+BM:	72 wins (18.00%)	{'No more provinces': 72}	32.835	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	304 wins (76.00%)	{'No more provinces': 303, '3 empty piles': 1}	38.7925	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('workshop', 0)]
+
+2018-04-06 13:58:45.624140
+Amount trained: 648000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	19.9575 turns	0:00:00.022770
+BM:	79 wins (19.75%)	{'No more provinces': 79}	32.685	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	39.1925	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:00:39.014708
+Amount trained: 649000 games
+Draws: 27 (6.75%)	{'No more provinces': 27}
+Avg length:	19.6525 turns	0:00:00.023683
+BM:	60 wins (15.00%)	{'No more provinces': 60}	32.265	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	38.8825	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:02:34.248233
+Amount trained: 650000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.065 turns	0:00:00.025190
+BM:	71 wins (17.75%)	{'No more provinces': 71}	33.105	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 311, '3 empty piles': 1}	39.7725	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:04:27.272922
+Amount trained: 651000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	19.9375 turns	0:00:00.024727
+BM:	63 wins (15.75%)	{'No more provinces': 63}	32.37	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 321, '3 empty piles': 1}	39.4975	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:06:24.566311
+Amount trained: 652000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.965 turns	0:00:00.024101
+BM:	77 wins (19.25%)	{'No more provinces': 77}	32.85	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 300}	39.115	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('remodel', 0), ('silver', 6), ('throne_room', 0)]
+
+2018-04-06 14:08:17.629504
+Amount trained: 653000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	19.945 turns	0:00:00.023840
+BM:	73 wins (18.25%)	{'No more provinces': 73}	32.835	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	39.7	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('market', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:10:07.080932
+Amount trained: 654000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.9 turns	0:00:00.024345
+BM:	68 wins (17.00%)	{'No more provinces': 68}	32.73	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 308, '3 empty piles': 1}	39.6475	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:11:51.617184
+Amount trained: 655000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	19.8425 turns	0:00:00.024001
+BM:	68 wins (17.00%)	{'No more provinces': 68}	33.045	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	319 wins (79.75%)	{'No more provinces': 319}	39.5225	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:13:42.000514
+Amount trained: 656000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.25 turns	0:00:00.024689
+BM:	72 wins (18.00%)	{'No more provinces': 70, '3 empty piles': 2}	33.84	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 317}	40.165	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('mine', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:15:35.440293
+Amount trained: 657000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	19.83 turns	0:00:00.024499
+BM:	84 wins (21.00%)	{'No more provinces': 84}	33.375	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	39.34	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 8), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:17:26.497173
+Amount trained: 658000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	19.7875 turns	0:00:00.023379
+BM:	80 wins (20.00%)	{'No more provinces': 80}	33.345	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	301 wins (75.25%)	{'No more provinces': 300, '3 empty piles': 1}	38.93	[('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:19:14.742692
+Amount trained: 659000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.2075 turns	0:00:00.024609
+BM:	73 wins (18.25%)	{'No more provinces': 73}	33.66	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	315 wins (78.75%)	{'No more provinces': 314, '3 empty piles': 1}	40.3925	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 14:21:07.501797
+Amount trained: 660000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.1325 turns	0:00:00.024711
+BM:	62 wins (15.50%)	{'No more provinces': 60, '3 empty piles': 2}	33.69	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 321, '3 empty piles': 2}	40.4	[('artisan', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('laboratory', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('sentry', 0), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 14:23:04.015036
+Amount trained: 661000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.0775 turns	0:00:00.024021
+BM:	61 wins (15.25%)	{'No more provinces': 61}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 322, '3 empty piles': 1}	40.06	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:24:56.220138
+Amount trained: 662000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.145 turns	0:00:00.023720
+BM:	55 wins (13.75%)	{'No more provinces': 55}	33.435	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	329 wins (82.25%)	{'No more provinces': 328, '3 empty piles': 1}	40.1325	[('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:26:47.350309
+Amount trained: 663000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	19.82 turns	0:00:00.023265
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.03	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 310}	39.2075	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:28:37.873850
+Amount trained: 664000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.0725 turns	0:00:00.024211
+BM:	63 wins (15.75%)	{'No more provinces': 63}	33.195	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	320 wins (80.00%)	{'No more provinces': 320}	39.9175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:30:30.661094
+Amount trained: 665000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.2125 turns	0:00:00.024271
+BM:	73 wins (18.25%)	{'No more provinces': 73}	33.945	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 309}	40.045	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:32:25.881902
+Amount trained: 666000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.3325 turns	0:00:00.025378
+BM:	62 wins (15.50%)	{'No more provinces': 61, '3 empty piles': 1}	33.645	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	324 wins (81.00%)	{'No more provinces': 324}	40.2425	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:34:20.362044
+Amount trained: 667000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.3525 turns	0:00:00.024893
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	34.005	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	40.39	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:36:10.953601
+Amount trained: 668000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.1275 turns	0:00:00.024963
+BM:	89 wins (22.25%)	{'No more provinces': 89}	34.005	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	300 wins (75.00%)	{'No more provinces': 300}	39.66	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:38:04.744603
+Amount trained: 669000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.0925 turns	0:00:00.024731
+BM:	62 wins (15.50%)	{'No more provinces': 60, '3 empty piles': 2}	33.33	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	316 wins (79.00%)	{'No more provinces': 316}	39.595	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('mine', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:39:57.739375
+Amount trained: 670000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.12 turns	0:00:00.024151
+BM:	63 wins (15.75%)	{'No more provinces': 63}	33.135	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 322, '3 empty piles': 1}	40.135	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:41:48.475784
+Amount trained: 671000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.16 turns	0:00:00.024629
+BM:	61 wins (15.25%)	{'No more provinces': 61}	33.255	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	320 wins (80.00%)	{'No more provinces': 320}	39.9025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('laboratory', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:43:43.177776
+Amount trained: 672000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.1675 turns	0:00:00.024412
+BM:	81 wins (20.25%)	{'No more provinces': 81}	33.465	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 304, '3 empty piles': 2}	39.315	[('artisan', 0), ('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:45:41.288679
+Amount trained: 673000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.1525 turns	0:00:00.024208
+BM:	66 wins (16.50%)	{'No more provinces': 66}	33.75	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 316, '3 empty piles': 1}	39.875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:47:32.209131
+Amount trained: 674000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.2275 turns	0:00:00.024561
+BM:	77 wins (19.25%)	{'No more provinces': 77}	33.84	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	309 wins (77.25%)	{'No more provinces': 309}	40.1875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:49:30.809385
+Amount trained: 675000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.4025 turns	0:00:00.024676
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.93	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 311, '3 empty piles': 2}	40.305	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:51:23.844310
+Amount trained: 676000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.52 turns	0:00:00.024557
+BM:	66 wins (16.50%)	{'No more provinces': 66}	34.26	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	320 wins (80.00%)	{'No more provinces': 318, '3 empty piles': 2}	40.9325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:53:20.193219
+Amount trained: 677000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.6975 turns	0:00:00.024892
+BM:	87 wins (21.75%)	{'No more provinces': 87}	34.95	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	298 wins (74.50%)	{'No more provinces': 298}	40.2075	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:55:15.700451
+Amount trained: 678000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	19.96 turns	0:00:00.023886
+BM:	51 wins (12.75%)	{'No more provinces': 51}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	335 wins (83.75%)	{'No more provinces': 335}	39.9925	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 14:57:08.045449
+Amount trained: 679000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	19.9525 turns	0:00:00.023177
+BM:	65 wins (16.25%)	{'No more provinces': 65}	32.655	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 323}	39.735	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 14:59:00.463737
+Amount trained: 680000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.2475 turns	0:00:00.023481
+BM:	61 wins (15.25%)	{'No more provinces': 61}	33.315	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	325 wins (81.25%)	{'No more provinces': 324, '3 empty piles': 1}	40.08	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('workshop', 0)]
+
+2018-04-06 15:00:52.018544
+Amount trained: 681000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.405 turns	0:00:00.024098
+BM:	78 wins (19.50%)	{'No more provinces': 77, '3 empty piles': 1}	34.065	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	304 wins (76.00%)	{'No more provinces': 303, '3 empty piles': 1}	40.14	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:02:44.818645
+Amount trained: 682000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.2425 turns	0:00:00.023623
+BM:	62 wins (15.50%)	{'No more provinces': 62}	32.985	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 321, '3 empty piles': 1}	40.0925	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:04:36.796504
+Amount trained: 683000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	19.965 turns	0:00:00.023992
+BM:	58 wins (14.50%)	{'No more provinces': 58}	32.55	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 325, '3 empty piles': 1}	39.8925	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 15:06:28.447365
+Amount trained: 684000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.085 turns	0:00:00.024063
+BM:	53 wins (13.25%)	{'No more provinces': 53}	33.405	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 325, '3 empty piles': 1}	39.9325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('library', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:08:24.659090
+Amount trained: 685000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	19.96 turns	0:00:00.023464
+BM:	70 wins (17.50%)	{'No more provinces': 70}	32.745	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 313}	39.8725	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 3), ('remodel', 0), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:10:17.789967
+Amount trained: 686000 games
+Draws: 8 (2.00%)	{'No more provinces': 8}
+Avg length:	20.2125 turns	0:00:00.024317
+BM:	65 wins (16.25%)	{'No more provinces': 64, '3 empty piles': 1}	33.15	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 327}	40.5025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 15:12:05.591670
+Amount trained: 687000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.445 turns	0:00:00.024532
+BM:	52 wins (13.00%)	{'No more provinces': 52}	33.36	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	333 wins (83.25%)	{'No more provinces': 333}	40.755	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 15:13:59.918743
+Amount trained: 688000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	21.4925 turns	0:00:00.025915
+BM:	104 wins (26.00%)	{'No more provinces': 104}	36.015	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 8)]
+NNet:	285 wins (71.25%)	{'No more provinces': 284, '3 empty piles': 1}	40.6025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 15:15:57.377633
+Amount trained: 689000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.575 turns	0:00:00.024977
+BM:	71 wins (17.75%)	{'No more provinces': 71}	33.855	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 314}	40.1	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:17:54.372161
+Amount trained: 690000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.605 turns	0:00:00.024834
+BM:	70 wins (17.50%)	{'No more provinces': 70}	33.75	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 313, '3 empty piles': 1}	40.2375	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 15:19:52.477125
+Amount trained: 691000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.3525 turns	0:00:00.025119
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.105	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	316 wins (79.00%)	{'No more provinces': 316}	40.3125	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:21:48.088615
+Amount trained: 692000 games
+Draws: 31 (7.75%)	{'No more provinces': 31}
+Avg length:	20.0325 turns	0:00:00.023870
+BM:	70 wins (17.50%)	{'No more provinces': 68, '3 empty piles': 2}	33.18	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	299 wins (74.75%)	{'No more provinces': 299}	39.4175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:23:41.637124
+Amount trained: 693000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.485 turns	0:00:00.025464
+BM:	61 wins (15.25%)	{'No more provinces': 61}	33.885	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 321}	40.5025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:25:40.609579
+Amount trained: 694000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	19.925 turns	0:00:00.025473
+BM:	75 wins (18.75%)	{'No more provinces': 75}	32.715	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	39.59	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:27:37.448919
+Amount trained: 695000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.55 turns	0:00:00.027912
+BM:	74 wins (18.50%)	{'No more provinces': 74}	34.155	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 310, '3 empty piles': 2}	40.805	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:29:46.915216
+Amount trained: 696000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.74 turns	0:00:00.026927
+BM:	78 wins (19.50%)	{'No more provinces': 78}	34.605	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	40.9	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:31:50.980458
+Amount trained: 697000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.015 turns	0:00:00.025261
+BM:	63 wins (15.75%)	{'No more provinces': 63}	32.985	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 320, '3 empty piles': 1}	39.73	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:33:52.590872
+Amount trained: 698000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.1375 turns	0:00:00.026345
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.21	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	315 wins (78.75%)	{'No more provinces': 314, '3 empty piles': 1}	40.3475	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:35:53.361922
+Amount trained: 699000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.4275 turns	0:00:00.025052
+BM:	54 wins (13.50%)	{'No more provinces': 54}	33.315	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	332 wins (83.00%)	{'No more provinces': 330, '3 empty piles': 2}	40.7325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:37:53.910641
+Amount trained: 700000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.245 turns	0:00:00.024755
+BM:	58 wins (14.50%)	{'No more provinces': 58}	33.225	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	329 wins (82.25%)	{'No more provinces': 328, '3 empty piles': 1}	40.6725	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:39:53.596312
+Amount trained: 701000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.3 turns	0:00:00.025049
+BM:	61 wins (15.25%)	{'No more provinces': 59, '3 empty piles': 2}	33.75	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	320 wins (80.00%)	{'No more provinces': 320}	40.9975	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('sentry', 0), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:41:50.092290
+Amount trained: 702000 games
+Draws: 9 (2.25%)	{'No more provinces': 9}
+Avg length:	20.14 turns	0:00:00.025173
+BM:	59 wins (14.75%)	{'No more provinces': 59}	33.54	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	332 wins (83.00%)	{'No more provinces': 331, '3 empty piles': 1}	40.485	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 2), ('harbinger', 0), ('library', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:43:47.447153
+Amount trained: 703000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.105 turns	0:00:00.024437
+BM:	49 wins (12.25%)	{'No more provinces': 49}	32.985	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	340 wins (85.00%)	{'No more provinces': 340}	40.7175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 2), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:45:43.520806
+Amount trained: 704000 games
+Draws: 8 (2.00%)	{'No more provinces': 8}
+Avg length:	20.3225 turns	0:00:00.025269
+BM:	61 wins (15.25%)	{'No more provinces': 61}	33.27	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	331 wins (82.75%)	{'No more provinces': 330, '3 empty piles': 1}	40.7025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:47:31.730916
+Amount trained: 705000 games
+Draws: 10 (2.50%)	{'No more provinces': 10}
+Avg length:	20.1325 turns	0:00:00.024608
+BM:	60 wins (15.00%)	{'No more provinces': 60}	33.12	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	330 wins (82.50%)	{'No more provinces': 330}	40.31	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 2), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:49:26.190098
+Amount trained: 706000 games
+Draws: 9 (2.25%)	{'No more provinces': 9}
+Avg length:	20.0925 turns	0:00:00.024937
+BM:	63 wins (15.75%)	{'No more provinces': 63}	32.895	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	328 wins (82.00%)	{'No more provinces': 328}	40.355	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 2), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('village', 0)]
+
+2018-04-06 15:51:23.752616
+Amount trained: 707000 games
+Draws: 9 (2.25%)	{'No more provinces': 9}
+Avg length:	19.9875 turns	0:00:00.024803
+BM:	54 wins (13.50%)	{'No more provinces': 54}	32.205	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	337 wins (84.25%)	{'No more provinces': 336, '3 empty piles': 1}	39.9675	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 15:53:22.016981
+Amount trained: 708000 games
+Draws: 10 (2.50%)	{'No more provinces': 10}
+Avg length:	20.215 turns	0:00:00.025048
+BM:	67 wins (16.75%)	{'No more provinces': 67}	32.82	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 322, '3 empty piles': 1}	40.625	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:55:18.810715
+Amount trained: 709000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.1425 turns	0:00:00.025396
+BM:	51 wins (12.75%)	{'No more provinces': 51}	32.745	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	329 wins (82.25%)	{'No more provinces': 329}	40.78	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0)]
+
+2018-04-06 15:57:14.616096
+Amount trained: 710000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.1 turns	0:00:00.024388
+BM:	57 wins (14.25%)	{'No more provinces': 57}	32.775	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	330 wins (82.50%)	{'No more provinces': 330}	40.615	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 15:59:07.911267
+Amount trained: 711000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.2375 turns	0:00:00.024744
+BM:	63 wins (15.75%)	{'No more provinces': 62, '3 empty piles': 1}	33.765	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 323}	40.3875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('village', 0), ('witch', 0), ('workshop', 0)]
+
+2018-04-06 16:01:06.545437
+Amount trained: 712000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.3275 turns	0:00:00.025954
+BM:	51 wins (12.75%)	{'No more provinces': 50, '3 empty piles': 1}	33.345	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 326}	40.98	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:03:08.624520
+Amount trained: 713000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.5925 turns	0:00:00.026037
+BM:	56 wins (14.00%)	{'No more provinces': 55, '3 empty piles': 1}	33.975	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 326, '3 empty piles': 1}	41.21	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:05:09.335337
+Amount trained: 714000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.6125 turns	0:00:00.025666
+BM:	57 wins (14.25%)	{'No more provinces': 57}	34.17	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	324 wins (81.00%)	{'No more provinces': 323, '3 empty piles': 1}	41.2275	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:07:08.353182
+Amount trained: 715000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.4075 turns	0:00:00.025979
+BM:	46 wins (11.50%)	{'No more provinces': 46}	33.555	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	340 wins (85.00%)	{'No more provinces': 340}	41.1275	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:09:06.051776
+Amount trained: 716000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.3425 turns	0:00:00.024854
+BM:	55 wins (13.75%)	{'No more provinces': 55}	33.45	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 326}	40.96	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:11:00.500023
+Amount trained: 717000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.4925 turns	0:00:00.025857
+BM:	58 wins (14.50%)	{'No more provinces': 58}	33.405	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	330 wins (82.50%)	{'No more provinces': 330}	40.935	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:12:57.060847
+Amount trained: 718000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.18 turns	0:00:00.026599
+BM:	52 wins (13.00%)	{'No more provinces': 51, '3 empty piles': 1}	32.985	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	328 wins (82.00%)	{'No more provinces': 328}	40.79	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 8), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:14:55.976270
+Amount trained: 719000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.2925 turns	0:00:00.026640
+BM:	74 wins (18.50%)	{'No more provinces': 73, '3 empty piles': 1}	33.72	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	303 wins (75.75%)	{'No more provinces': 303}	40.7325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 8), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:16:54.089037
+Amount trained: 720000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.2375 turns	0:00:00.026572
+BM:	67 wins (16.75%)	{'No more provinces': 65, '3 empty piles': 2}	33.495	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	316 wins (79.00%)	{'No more provinces': 316}	40.3875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 16:18:54.156714
+Amount trained: 721000 games
+Draws: 15 (3.75%)	{'No more provinces': 15}
+Avg length:	20.24 turns	0:00:00.026506
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.825	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	316 wins (79.00%)	{'No more provinces': 315, '3 empty piles': 1}	40.535	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 8), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:20:54.406302
+Amount trained: 722000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.5125 turns	0:00:00.026604
+BM:	73 wins (18.25%)	{'No more provinces': 72, '3 empty piles': 1}	34.41	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 310}	40.545	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:22:49.007792
+Amount trained: 723000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.1575 turns	0:00:00.025607
+BM:	53 wins (13.25%)	{'No more provinces': 51, '3 empty piles': 2}	33.105	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	329 wins (82.25%)	{'No more provinces': 327, '3 empty piles': 2}	40.6125	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:24:47.223777
+Amount trained: 724000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.325 turns	0:00:00.027165
+BM:	60 wins (15.00%)	{'No more provinces': 58, '3 empty piles': 2}	33.57	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 322}	40.4575	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:26:51.122494
+Amount trained: 725000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.195 turns	0:00:00.027114
+BM:	61 wins (15.25%)	{'No more provinces': 61}	32.565	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	319 wins (79.75%)	{'No more provinces': 319}	40.4375	[('artisan', 0), ('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('remodel', 0), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 16:28:55.911458
+Amount trained: 726000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.2925 turns	0:00:00.027605
+BM:	68 wins (17.00%)	{'No more provinces': 67, '3 empty piles': 1}	32.94	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	315 wins (78.75%)	{'No more provinces': 314, '3 empty piles': 1}	40.6175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 16:30:56.526149
+Amount trained: 727000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.1775 turns	0:00:00.026966
+BM:	66 wins (16.50%)	{'No more provinces': 66}	33.225	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	312 wins (78.00%)	{'No more provinces': 312}	40.4275	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 16:33:01.932012
+Amount trained: 728000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.06 turns	0:00:00.027146
+BM:	72 wins (18.00%)	{'No more provinces': 72}	32.715	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	310 wins (77.50%)	{'No more provinces': 308, '3 empty piles': 2}	40.2175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 16:34:59.867441
+Amount trained: 729000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.4025 turns	0:00:00.027399
+BM:	71 wins (17.75%)	{'No more provinces': 71}	33.345	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	308 wins (77.00%)	{'No more provinces': 308}	40.3625	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 16:37:01.992205
+Amount trained: 730000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.0125 turns	0:00:00.026403
+BM:	61 wins (15.25%)	{'No more provinces': 60, '3 empty piles': 1}	31.98	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 327}	40.1075	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 16:39:00.534939
+Amount trained: 731000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.1775 turns	0:00:00.026977
+BM:	60 wins (15.00%)	{'No more provinces': 60}	33.24	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 320, '3 empty piles': 1}	40.5875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:40:55.483477
+Amount trained: 732000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	19.9525 turns	0:00:00.026842
+BM:	54 wins (13.50%)	{'No more provinces': 53, '3 empty piles': 1}	32.52	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	333 wins (83.25%)	{'No more provinces': 333}	39.8325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:42:52.185005
+Amount trained: 733000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.05 turns	0:00:00.027356
+BM:	59 wins (14.75%)	{'No more provinces': 59}	32.655	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 322}	40.235	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:44:47.492310
+Amount trained: 734000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.1225 turns	0:00:00.026084
+BM:	61 wins (15.25%)	{'No more provinces': 60, '3 empty piles': 1}	32.76	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 326, '3 empty piles': 1}	40.375	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:46:42.790650
+Amount trained: 735000 games
+Draws: 10 (2.50%)	{'No more provinces': 10}
+Avg length:	19.845 turns	0:00:00.024115
+BM:	66 wins (16.50%)	{'No more provinces': 66}	32.25	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	324 wins (81.00%)	{'No more provinces': 324}	39.895	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:48:34.695008
+Amount trained: 736000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.1325 turns	0:00:00.025330
+BM:	49 wins (12.25%)	{'No more provinces': 49}	32.505	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	330 wins (82.50%)	{'No more provinces': 329, '3 empty piles': 1}	40.2175	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:50:30.433565
+Amount trained: 737000 games
+Draws: 9 (2.25%)	{'No more provinces': 9}
+Avg length:	20.6075 turns	0:00:00.026247
+BM:	63 wins (15.75%)	{'No more provinces': 63}	33.0	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	328 wins (82.00%)	{'No more provinces': 328}	41.135	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:52:27.801987
+Amount trained: 738000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.0175 turns	0:00:00.026052
+BM:	71 wins (17.75%)	{'No more provinces': 71}	32.835	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	39.4475	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 16:54:25.621108
+Amount trained: 739000 games
+Draws: 18 (4.50%)	{'No more provinces': 18}
+Avg length:	20.1325 turns	0:00:00.023506
+BM:	60 wins (15.00%)	{'No more provinces': 60}	32.595	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 321, '3 empty piles': 1}	39.8775	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 16:56:23.354686
+Amount trained: 740000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.1275 turns	0:00:00.025292
+BM:	65 wins (16.25%)	{'No more provinces': 63, '3 empty piles': 2}	32.775	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	318 wins (79.50%)	{'No more provinces': 318}	39.7875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('festival', 0), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 16:58:20.064718
+Amount trained: 741000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	19.73 turns	0:00:00.024442
+BM:	63 wins (15.75%)	{'No more provinces': 63}	31.755	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 323}	39.6625	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:00:17.706643
+Amount trained: 742000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.0275 turns	0:00:00.024709
+BM:	60 wins (15.00%)	{'No more provinces': 60}	32.55	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 327}	39.88	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:02:14.988350
+Amount trained: 743000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.235 turns	0:00:00.025436
+BM:	80 wins (20.00%)	{'No more provinces': 80}	32.955	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	307 wins (76.75%)	{'No more provinces': 307}	39.645	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:04:10.108724
+Amount trained: 744000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	19.965 turns	0:00:00.025371
+BM:	66 wins (16.50%)	{'No more provinces': 66}	32.25	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 309, '3 empty piles': 2}	39.4325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:06:00.993828
+Amount trained: 745000 games
+Draws: 25 (6.25%)	{'No more provinces': 25}
+Avg length:	20.03 turns	0:00:00.024233
+BM:	72 wins (18.00%)	{'No more provinces': 71, '3 empty piles': 1}	32.79	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	303 wins (75.75%)	{'No more provinces': 303}	39.3275	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:07:54.747254
+Amount trained: 746000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.35 turns	0:00:00.025026
+BM:	69 wins (17.25%)	{'No more provinces': 69}	33.675	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 313, '3 empty piles': 1}	40.0825	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:09:46.996717
+Amount trained: 747000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.1025 turns	0:00:00.024271
+BM:	61 wins (15.25%)	{'No more provinces': 61}	32.73	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 325, '3 empty piles': 1}	40.4	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:11:42.490472
+Amount trained: 748000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.625 turns	0:00:00.025318
+BM:	58 wins (14.50%)	{'No more provinces': 58}	33.555	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 326}	41.1575	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:13:36.772575
+Amount trained: 749000 games
+Draws: 23 (5.75%)	{'No more provinces': 23}
+Avg length:	20.305 turns	0:00:00.025170
+BM:	71 wins (17.75%)	{'No more provinces': 71}	33.24	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	306 wins (76.50%)	{'No more provinces': 305, '3 empty piles': 1}	39.975	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 17:15:31.072961
+Amount trained: 750000 games
+Draws: 5 (1.25%)	{'No more provinces': 5}
+Avg length:	20.4725 turns	0:00:00.026169
+BM:	65 wins (16.25%)	{'No more provinces': 65}	33.105	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	330 wins (82.50%)	{'No more provinces': 330}	40.7875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]
+
+2018-04-06 17:17:29.440810
+Amount trained: 751000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.4525 turns	0:00:00.025740
+BM:	54 wins (13.50%)	{'No more provinces': 54}	33.03	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	326 wins (81.50%)	{'No more provinces': 326}	40.775	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:19:27.808122
+Amount trained: 752000 games
+Draws: 19 (4.75%)	{'No more provinces': 19}
+Avg length:	20.4075 turns	0:00:00.024842
+BM:	64 wins (16.00%)	{'No more provinces': 63, '3 empty piles': 1}	33.255	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 317}	40.53	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:21:23.021422
+Amount trained: 753000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.245 turns	0:00:00.025725
+BM:	60 wins (15.00%)	{'No more provinces': 60}	32.94	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	324 wins (81.00%)	{'No more provinces': 323, '3 empty piles': 1}	40.115	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:23:16.180845
+Amount trained: 754000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.41 turns	0:00:00.026061
+BM:	56 wins (14.00%)	{'No more provinces': 56}	33.135	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 326, '3 empty piles': 1}	40.515	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:25:10.418997
+Amount trained: 755000 games
+Draws: 13 (3.25%)	{'No more provinces': 13}
+Avg length:	20.5725 turns	0:00:00.025897
+BM:	70 wins (17.50%)	{'No more provinces': 70}	33.45	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 316, '3 empty piles': 1}	41.02	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:27:10.065666
+Amount trained: 756000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.64 turns	0:00:00.026240
+BM:	71 wins (17.75%)	{'No more provinces': 70, '3 empty piles': 1}	33.66	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 314, '3 empty piles': 3}	40.7775	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('poacher', 0), ('province', 2), ('remodel', 0), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:29:09.099743
+Amount trained: 757000 games
+Draws: 11 (2.75%)	{'No more provinces': 11}
+Avg length:	20.5725 turns	0:00:00.026423
+BM:	78 wins (19.50%)	{'No more provinces': 76, '3 empty piles': 2}	34.14	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	311 wins (77.75%)	{'No more provinces': 310, '3 empty piles': 1}	40.675	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('laboratory', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:31:06.349088
+Amount trained: 758000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.4175 turns	0:00:00.027523
+BM:	50 wins (12.50%)	{'No more provinces': 50}	33.075	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	334 wins (83.50%)	{'No more provinces': 332, '3 empty piles': 2}	40.99	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:33:05.242248
+Amount trained: 759000 games
+Draws: 14 (3.50%)	{'No more provinces': 14}
+Avg length:	20.5225 turns	0:00:00.025259
+BM:	59 wins (14.75%)	{'No more provinces': 59}	33.42	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	327 wins (81.75%)	{'No more provinces': 327}	40.4525	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:35:05.142233
+Amount trained: 760000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.7275 turns	0:00:00.026095
+BM:	67 wins (16.75%)	{'No more provinces': 66, '3 empty piles': 1}	33.735	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 5), ('silver', 7)]
+NNet:	313 wins (78.25%)	{'No more provinces': 312, '3 empty piles': 1}	40.875	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 4), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('mine', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:37:01.860192
+Amount trained: 761000 games
+Draws: 17 (4.25%)	{'No more provinces': 17}
+Avg length:	20.675 turns	0:00:00.026792
+BM:	78 wins (19.50%)	{'No more provinces': 78}	33.495	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	305 wins (76.25%)	{'No more provinces': 305}	40.5125	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:39:03.111981
+Amount trained: 762000 games
+Draws: 16 (4.00%)	{'No more provinces': 16}
+Avg length:	20.215 turns	0:00:00.024775
+BM:	70 wins (17.50%)	{'No more provinces': 70}	33.135	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 5), ('silver', 7)]
+NNet:	314 wins (78.50%)	{'No more provinces': 313, '3 empty piles': 1}	39.46	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 2), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:41:02.980541
+Amount trained: 763000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.335 turns	0:00:00.025510
+BM:	55 wins (13.75%)	{'No more provinces': 55}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	323 wins (80.75%)	{'No more provinces': 323}	40.2075	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 6), ('smithy', 0), ('throne_room', 0), ('vassal', 0)]
+
+2018-04-06 17:42:57.170114
+Amount trained: 764000 games
+Draws: 12 (3.00%)	{'No more provinces': 12}
+Avg length:	20.32 turns	0:00:00.026050
+BM:	67 wins (16.75%)	{'No more provinces': 67}	32.88	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	321 wins (80.25%)	{'No more provinces': 319, '3 empty piles': 2}	40.0725	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0)]
+
+2018-04-06 17:44:54.355550
+Amount trained: 765000 games
+Draws: 21 (5.25%)	{'No more provinces': 21}
+Avg length:	20.2575 turns	0:00:00.024947
+BM:	57 wins (14.25%)	{'No more provinces': 57}	32.76	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 322}	40.1325	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 4), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:46:47.099081
+Amount trained: 766000 games
+Draws: 22 (5.50%)	{'No more provinces': 22}
+Avg length:	20.045 turns	0:00:00.025532
+BM:	61 wins (15.25%)	{'No more provinces': 61}	32.43	[('copper', 7), ('estate', 3), ('gold', 5), ('province', 4), ('silver', 7)]
+NNet:	317 wins (79.25%)	{'No more provinces': 316, '3 empty piles': 1}	39.33	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 2), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('workshop', 0)]
+
+2018-04-06 17:48:39.115833
+Amount trained: 767000 games
+Draws: 20 (5.00%)	{'No more provinces': 20}
+Avg length:	20.0375 turns	0:00:00.025881
+BM:	58 wins (14.50%)	{'No more provinces': 58}	32.28	[('copper', 7), ('estate', 3), ('gold', 6), ('province', 4), ('silver', 7)]
+NNet:	322 wins (80.50%)	{'No more provinces': 322}	39.025	[('bandit', 0), ('bureaucrat', 0), ('cellar', 0), ('chapel', 0), ('copper', 7), ('council_room', 0), ('duchy', 3), ('estate', 3), ('gardens', 1), ('gold', 3), ('harbinger', 0), ('library', 0), ('market', 0), ('merchant', 0), ('militia', 0), ('moat', 0), ('moneylender', 0), ('poacher', 0), ('province', 3), ('silver', 5), ('smithy', 0), ('throne_room', 0), ('vassal', 0), ('village', 0), ('workshop', 0)]

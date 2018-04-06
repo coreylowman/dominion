@@ -80,6 +80,8 @@ def test_against_bm(model, amount_trained, best_wins, num_games=400, save_best=T
     info.append('')
 
     print('\n'.join(info))
+    with open('stats.txt', 'a') as fp:
+        fp.write('\n'.join(info))
 
     if save_best and wins_for_player[name] > best_wins:
         best_wins = wins_for_player[name]
@@ -98,8 +100,8 @@ def main():
     discount_factor = 1.0
     epsilon = 0.25
 
-    num_completed_games = 0
-    best_wins = 0
+    num_completed_games = 767000
+    best_wins = 340
 
     self_play_size = 1000
 
