@@ -21,7 +21,7 @@ class BigMoneyPlayer(AIPlayer):
             self.buy(card_to_buy)
 
     def choose_card_from(self, collection):
-        for card_name in ['province', 'duchy', 'estate', 'copper', 'silver', 'gold']:
+        for card_name in ['curse', 'province', 'duchy', 'estate', 'copper', 'silver', 'gold']:
             if card_name in collection:
                 return card_name
 
