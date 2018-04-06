@@ -159,9 +159,11 @@ class Game:
 
     def play_card_for(self, player_handle, card_name):
         if not self.is_players_turn(player_handle) or not self.current_phase == Phase.ACTION:
-            return
+            return 0
 
         self.history.append('{} played {}'.format(player_handle.name, card_name))
+
+        points_before = self.victory_points_by_player()[player_handle.name]
 
         card = self.take_from_hand(player_handle, card_name)
         self.move_to_play_area(player_handle, card)
@@ -169,6 +171,10 @@ class Game:
 
         if card.is_action():
             self.gain_actions_for(player_handle, -1)
+
+        points_after = self.victory_points_by_player()[player_handle.name]
+
+        return points_after - points_before
 
     def play_card(self, player_handle, card):
         card.play(player_handle, self)
@@ -179,14 +185,20 @@ class Game:
     def buy_card_for(self, player_handle, card_name):
         if not self.is_players_turn(player_handle) or not self.current_phase == Phase.BUY \
                 or not self.can_buy(card_name, self.player_state_by_handle[player_handle].coins):
-            return
+            return 0
 
         self.history.append('{} bought {}'.format(player_handle.name, card_name))
+
+        points_before = self.victory_points_by_player()[player_handle.name]
 
         card = self.buy(card_name)
         self.move_to_discard(player_handle, card)
         self.gain_buys_for(player_handle, -1)
         self.gain_coins_for(player_handle, -card.cost)
+
+        points_after = self.victory_points_by_player()[player_handle.name]
+
+        return points_after - points_before
 
     def buy(self, card_name):
         card = self.card_piles_by_name[card_name].pop()
