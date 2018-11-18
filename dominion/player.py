@@ -148,6 +148,31 @@ class LocalPlayerHandle(PlayerHandle):
         self.choices = []
         self.answers = []
 
+    def reset(self):
+        self.my_turn = False
+        self.is_action_phase = False
+
+        self.turn_number = 0
+
+        self.actions = 0
+        self.coins = 0
+        self.buys = 0
+
+        self.hand = {}
+        self.cards_in_play_area = defaultdict(int)
+        self.cards_in_discard = defaultdict(int)
+        self.cards_in_deck = defaultdict(int)
+
+        self.last_card_played = None
+
+        self.total_of = {}
+        self.num_left_of = {}
+        self.cost_of = {}
+        self.is_action = {}
+
+        self.choices = []
+        self.answers = []
+
     def notify_joined_game(self, supply_piles, card_costs, card_is_action):
         self.total_of = supply_piles.copy()
         self.num_left_of = supply_piles.copy()
