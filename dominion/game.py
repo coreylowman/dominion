@@ -284,7 +284,7 @@ class Game:
         for handle in self.player_handles:
             handle.notify_trashed_card(player_handle.name, card.name)
 
-        self.history.append('{} trashed {}'.format(player_handle, card.name))
+        self.history.append('{} trashed {}'.format(player_handle.name, card.name))
 
     def take_from_deck(self, player_handle):
         state = self.player_state_by_handle[player_handle]
@@ -346,7 +346,7 @@ class Game:
             handle.notify_finished_game(game_results)
 
     def is_over(self):
-        return self.num_empty_piles() == 3 or len(self.card_piles_by_name['province']) == 0
+        return self.num_empty_piles() >= 3 or len(self.card_piles_by_name['province']) == 0
 
     def is_draw(self):
         vp_by_player = self.victory_points_by_player()
@@ -354,7 +354,7 @@ class Game:
         return all(map(lambda player: vp_by_player[player] == vp_by_player[player1], vp_by_player))
 
     def finish_reason(self):
-        if self.num_empty_piles() == 3:
+        if self.num_empty_piles() >= 3:
             return '3 empty piles'
         else:
             return 'No more provinces'
