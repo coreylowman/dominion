@@ -131,7 +131,7 @@ class WorkshopGardensPlayer(AIPlayer):
         if len(self.choices) > 0:
             return self.choices.pop(0)
         else:
-            for card_name in ['province', 'duchy', 'estate', 'copper', 'silver', 'gold']:
+            for card_name in ['gardens', 'province', 'duchy', 'estate', 'copper', 'silver', 'gold']:
                 if card_name in collection:
                     return card_name
 

@@ -30,13 +30,17 @@ def test_against_bm(model, amount_trained, best_wins, num_games=400, save_best=T
     game_times = []
     win_reasons_for_player = {name: defaultdict(int), 'BM': defaultdict(int)}
     cards_for_player = {name: defaultdict(int), 'BM': defaultdict(int)}
+    games_with_card = defaultdict(int)
 
     for i in range(num_games):
         player1 = NNetTrainingPlayer(name, model, epsilon=0.0)
         player2 = BigMoneyPlayer('BM')
 
-        game = make_random_game(player1, player2, set())
-        # game = make_premade_game(player1, player2, 'First Game')
+        # game = make_random_game(player1, player2, set())
+        game = make_premade_game(player1, player2, 'Size Distortion')
+
+        for card_name in game.card_piles_by_name:
+            games_with_card[card_name] += 1
 
         start_time = datetime.datetime.now()
         run_game(game)
@@ -72,7 +76,7 @@ def test_against_bm(model, amount_trained, best_wins, num_games=400, save_best=T
 
     for player in sorted(wins_for_player):
         for card in cards_for_player[player]:
-            cards_for_player[player][card] //= num_games
+            cards_for_player[player][card] /= games_with_card[card]
         info.append('{}:\t{} wins ({:.2f}%)\t{}\t{}\t{}'.format(
             player, wins_for_player[player], 100.0 * wins_for_player[player] / num_games,
             dict(win_reasons_for_player[player]), sum(vp_for_player[player]) / len(vp_for_player[player]),
@@ -100,13 +104,13 @@ def main():
     discount_factor = 1.0
     epsilon = 0.25
 
-    num_completed_games = 767000
-    best_wins = 340
+    num_completed_games = 0
+    best_wins = 0
 
     self_play_size = 1000
 
-    best_wins = test_against_bm(model, num_completed_games, best_wins)
-    model.save(path)
+    # best_wins = test_against_bm(model, num_completed_games, best_wins)
+    # model.save(path)
 
     while True:
         input_data = []
@@ -119,8 +123,8 @@ def main():
             player1 = NNetTrainingPlayer('Player1', model, epsilon=epsilon)
             player2 = NNetTrainingPlayer('Player2', model, epsilon=epsilon)
 
-            game = make_random_game(player1, player2, set())
-            # game = make_premade_game(player1, player2, 'First Game')
+            # game = make_random_game(player1, player2, set())
+            game = make_premade_game(player1, player2, 'Size Distortion')
 
             run_game(game)
             points = game.victory_points_by_player()
@@ -134,7 +138,7 @@ def main():
                                                                len(input_data)), end='', flush=True)
 
             for history, name in [(player1.history, 'Player1'), (player2.history, 'Player2')]:
-                length_modifier = -game.turn_number / len(history)
+                reward = 1 if is_winner[name] == 1 else 0
                 for t, (features, values, winning_prob, actions, chosen_action, r, next_values) in enumerate(history):
                     action_values = values.copy()
 
@@ -144,7 +148,7 @@ def main():
 
                     i = ALL_POSSIBLE_ACTIONS.index(chosen_action)
                     next_v = 0 if t + 1 == len(history) else max(next_values)
-                    action_values[i] = r + length_modifier + discount_factor * next_v
+                    action_values[i] = reward + discount_factor * next_v
 
                     input_data.append(features)
                     target_values.append(action_values)

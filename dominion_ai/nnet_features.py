@@ -41,7 +41,7 @@ def build_model():
     x = Dense(NNET_NUM_INPUTS, activation='relu')(x)
     card_values = Dense(len(ALL_POSSIBLE_ACTIONS), name='values')(x)
 
-    prob_winning = Dense(1, activation='tanh', name='prob_winning')(inputs)
+    prob_winning = Dense(1, activation='softmax', name='prob_winning')(x)
 
     model = Model(inputs=inputs, outputs=[card_values, prob_winning])
     model.compile(loss='mean_squared_error', optimizer='adam')
@@ -264,3 +264,13 @@ class NNetDifficulty7(ModelPlayer):
 class NNetDifficulty8(ModelPlayer):
     def get_path(self):
         return './models/all_319_345000.hd5'
+
+
+class NNetDifficulty9(ModelPlayer):
+    def get_path(self):
+        return './models/all_351_813000.hd5'
+
+
+class CurrentNNet(ModelPlayer):
+    def get_path(self):
+        return './best_345_431000.hd5'
